@@ -7,6 +7,7 @@ import Footer from './components/footer/footer.component';
 import HomePage from './pages/homepage/homepage.component';
 import ContactPage from './pages/contact/contact.component';
 
+
 const App=() =>{
   return (
     <div >
