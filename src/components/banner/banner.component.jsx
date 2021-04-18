@@ -1,8 +1,12 @@
 import React from 'react';
 import './banner.styles.scss'
 import westwater from '../../imgs/westwater.jpg';
-import tree from '../../imgs/tree.jpg';
+import computer from '../../imgs/computer.jpg';
+import bluepainting from '../../imgs/bluepaint.jpg';
 
+import designmix from '../../imgs/designmix.jpg';
+
+import designpurple from '../../imgs/designpurple.jpg';
 const Banner = () => {
     return (
 
@@ -13,7 +17,7 @@ const Banner = () => {
     //     <h2 className="f6 fw6 black">A story by Nancy Drew</h2>
     // </div>
     <div className='image'>
-        <img className='picture' src={tree} alt='item' />
+        <img className='picture' src={bluepainting} alt='item' />
         <h1 className="text f2 f-subheadline-l measure lh-title fw9 ">Hi, I'm Bronagh</h1>
         
     </div>

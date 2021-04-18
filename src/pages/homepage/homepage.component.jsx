@@ -2,9 +2,11 @@ import React from 'react';
 import {TempContainer} from '../contact/contact.styles';
 import Banner from '../../components/banner/banner.component';
 import About from '../../components/about/about.component';
-//import About from '../../components/about/about.component';
-import './homepage.styles.scss';
+import Skills from '../../components/skills/skills.component';
 import Projects from '../../components/projects/projects.component';
+//import About from '../../components/about/about.component';
+
+import './homepage.styles.scss';
 const HomePage = () => (
     <div>
          <Banner/>
@@ -12,7 +14,9 @@ const HomePage = () => (
                 <About/>
                 <About/>
             </div>
+            <Skills/>
             <Projects/>
+            
     </div>
 )
 
