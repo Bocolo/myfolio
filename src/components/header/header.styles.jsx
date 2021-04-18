@@ -1,6 +1,6 @@
 import styled, { css } from 'styled-components';
 import {Link} from 'react-router-dom';
-
+//   background-color: #e5989b; 6930c3
 export const NavContainer =styled.div`transform: translateY(-100%);
 `;
 export const HeaderContainer = styled.div`
@@ -10,7 +10,8 @@ export const HeaderContainer = styled.div`
     width: 100%;
     display: flex;
     justify-content: space-between;
-    background-color: #e5989b;
+    background-color: black;
+   
     position:absolute;
     left:0;
     top:0;
@@ -52,6 +53,8 @@ export const OptionsContainer = styled.div`
 
             padding: 10px 15px;
             cursor:pointer;
+            color: #6930c3;
+            font-weight: bold;
 `;
 export const OptionLink = styled(Link)`
 ${OptionContainerStyles}`;

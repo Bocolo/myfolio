@@ -11,12 +11,12 @@ const Header = () =>(
 
 
     <HeaderContainer>
-        <OptionsContainer>
-            <OptionLink to='/'>
+        <OptionsContainer >
+            <OptionLink className='grow' to='/'>
                 HOMEPAGE
             </OptionLink>
 
-            <OptionLink to='/contact'>
+            <OptionLink className='grow' to='/contact'>
                 CONTACT
             </OptionLink>
         </OptionsContainer>

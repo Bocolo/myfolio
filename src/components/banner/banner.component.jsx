@@ -17,8 +17,8 @@ const Banner = () => {
     //     <h2 className="f6 fw6 black">A story by Nancy Drew</h2>
     // </div>
     <div className='image'>
-        <img className='picture' src={bluepainting} alt='item' />
-        <h1 className="text f2 f-subheadline-l measure lh-title fw9 ">Hi, I'm Bronagh</h1>
+        <img className='picture' src={designmix} alt='item' />
+        <h1 className="text f2 f-subheadline-l measure lh-title fw9 grow ">Here we are</h1>
         
     </div>
     //no-repeat center right

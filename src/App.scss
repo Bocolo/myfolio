@@ -1,6 +1,8 @@
+$text-color: #48bfe3;
 body {
   font-family: 'Open Sans Condensed', sans-serif;
- 
+  color: white;
+  background-color: black;
  
 
 }
@@ -11,7 +13,7 @@ body {
 }
 a{
   text-decoration:none;
-color:black;
+color:white;
 }
 *{
   box-sizing:border-box;
