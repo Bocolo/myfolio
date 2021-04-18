@@ -4,6 +4,7 @@ import Banner from '../../components/banner/banner.component';
 import About from '../../components/about/about.component';
 import Skills from '../../components/skills/skills.component';
 import Projects from '../../components/projects/projects.component';
+import Projectbox from '../../components/projectbox/projectbox.component';
 //import About from '../../components/about/about.component';
 
 import './homepage.styles.scss';
@@ -15,6 +16,7 @@ const HomePage = () => (
                 <About/>
             </div>
             <Skills/>
+            
             <Projects/>
             
     </div>
