@@ -25,7 +25,7 @@ const HomePage = () => (
         {/* <Sample/> */}
         <TesterCollection/>
         <Game/>
-        <Projectcontainer />
+        <Projectcontainer  />
         <Projects/>
             
     </div>

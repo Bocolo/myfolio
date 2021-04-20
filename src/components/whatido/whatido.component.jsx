@@ -14,9 +14,9 @@ const Whatido =({title, text})=>{
                     <div className='f5 lh-copy pa2 pr4 '>
                         
                        {text}
-                    {/* </div> */}
+                    </div>
                    
-                </div>
+                {/* </div> */}
             </div>
 
         </div>

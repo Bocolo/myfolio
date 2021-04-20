@@ -5,7 +5,7 @@ import './projectcontainer.styles.scss';
 const Projectcontainer = () => {
 
     return (
-        <div className='pcontainer'>
+        <div className='pcontainer brack '>
             <div className='f3 f2-m f1-l fw2  ttu tc lh-copy pt5'>Past Projects</div>
             <Skills />
         </div>

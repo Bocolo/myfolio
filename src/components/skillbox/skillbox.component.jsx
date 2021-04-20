@@ -18,7 +18,7 @@ const Skillbox =()=>{
             
         <div className='boxborder tc br4 grow'>
             {/* <div className='skillstitle f3 f2-m f1-l fw2  mv3'>Skills</div> */}
-            <div className=' f4 f6-m pa2  lh-copy'>
+            <div className=' f3 f6-m pa2  lh-copy'>
                 
                 <div id='skills'>
                     <div>

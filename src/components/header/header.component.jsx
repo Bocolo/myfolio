@@ -4,9 +4,6 @@ import React from 'react';
 import {HeaderContainer, OptionsContainer, OptionLink, NavContainer} from './header.styles.jsx';
 
 
-
-
-
 const Header = () =>( 
 
 
