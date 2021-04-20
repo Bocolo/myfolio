@@ -8,7 +8,9 @@ const Me = () =>{
     return (
     
             <div className='colside brack'>
-                <About/><Skillbox/></div>
+                <About/>
+                <Skillbox/>
+                </div>
           
 )}
 

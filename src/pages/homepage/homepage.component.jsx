@@ -9,18 +9,21 @@ import Skillbox from '../../components/skillbox/skillbox.component';
 import Projectbox from '../../components/projectbox/projectbox.component';
 import Containerbox from '../../components/containerbox/containerbox.component';
 import Sample from '../../components/sample/sample.component';
+import Box from '../../components/box/box.component';
 //import About from '../../components/about/about.component';
 import Projectcontainer from '../../components/projectcontainer/projectcontainer.component';
 import Game from '../../components/game/game.component';
+import TesterCollection from '../../components/tester/tester-collection.component';
+
 
 import './homepage.styles.scss';
 const HomePage = () => (
     <div>
-        <Banner/>
-       
+        {/* <Banner/> */}
+       <Box/>
         <Me/>
-        <Sample/>
-        
+        {/* <Sample/> */}
+        <TesterCollection/>
         <Game/>
         <Projectcontainer />
         <Projects/>

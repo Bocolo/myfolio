@@ -12,9 +12,11 @@ export const HeaderContainer = styled.div`
     justify-content: space-between;
     background-color: black;
    
-    position:absolute;
+   
     left:0;
     top:0;
+    
+   
    
   
     
