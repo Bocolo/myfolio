@@ -9,24 +9,54 @@
 }
 
 .boxborder{
-    border: 5.5px solid rgb(119, 4, 90);
+    border: 5.5px solid rgb(201, 34, 159,.7);
     // width: 40vw;
     // height: 20vw;
     width: auto;
     height: auto;
    // background-color: white;
     color:#48bfe3;
+    box-shadow: 0px 0px 30px 10px rgb(201, 34, 159);
 }
 .skillstitle{
     
     
-    padding-bottom: 1%;
+    padding-bottom: 5%;
 }
-.textbox{
- 
+#skills{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: left;
+    padding-top: 2%;
+    
 }
 .iconscontainer{
-    display:grid;
+    // display:grid;
+    max-width: 800px;
+    margin: 0 auto;
+    column-width: 14em;
+    column-gap: 2em;
+    column-rule: 1px solid #ccc;
     
+    
+}
+.flex-grid {
+    display: flex;
+  }
+  .flex-grid .col {
+    
+    flex: 1;
+    flex-direction:column;
+    flex-basis: 100%;
+  }
+.flexparent{
+    display:flex;
+    flex-flow:row wrap;
+}
+.row{
+    display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
 }
 // s

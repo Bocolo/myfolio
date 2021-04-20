@@ -13,23 +13,60 @@ import vsico from '../../imgs/vsico.svg';
 //white-50
 const Skillbox =()=>{
     return (
-        <div className='bordercontainer tc ph4'>
+        <div className='bordercontainer tc '>
+            <div className='skillstitle ttu f3 f2-m f1-l fw2  mv3'>Skills</div>
             
-        <div className='boxborder tc'>
-            <div className='skillstitle f3 f2-m f1-l fw2  mv3'>Skills</div>
-            <div className='textbox f5 f4-m f3-l fw2  mt0 lh-copy'>
-                This is the texxt"
+        <div className='boxborder tc br4 grow'>
+            {/* <div className='skillstitle f3 f2-m f1-l fw2  mv3'>Skills</div> */}
+            <div className=' f4 f3-m lh-copy'>
                 
-                <div className='iconscontainer '>
-                   
-
-                    <Icons image={pythonico} iname='Python' />
-                    <Icons image={cssico} iname='CSS' />
+                <div id='skills'>
+                    <div>
+                    <Icons  image={pythonico} iname='Python' />
+                    <Icons  image={cssico} iname='CSS' />
+                    <Icons  image={pythonico} iname='C#' />
+                    <Icons  image={cssico} iname='JavaScript' />
+                    <Icons  image={cssico} iname='Node.js' />
+                    </div>
+                    <div>
+                    <Icons  image={pythonico} iname='IBM SPSS' />
+                    <Icons  image={cssico} iname='ReactJS' />
+                    <Icons  image={pythonico} iname='HTML5' />
+                    <Icons  image={cssico} iname='SQL' />
+                    <Icons  image={cssico} iname='Krita' />
+                   </div>
+                   <div>
+                    <Icons  image={pythonico} iname='.Net Framework' />
+                    <Icons  image={cssico} iname='PostgreSQL' />
+                    <Icons  image={pythonico} iname='Postman API' />
+                    <Icons  image={cssico} iname='Jupyter Notebook' />
+                    <Icons  image={cssico} iname='pgAdmin' />
+                   </div>
+                </div>
+                {/* <div className=' iconscontainer flex-grid'>
+                
+                    <Icons  image={pythonico} iname='Pytho1n' />
+                    <Icons  image={cssico} iname='CSS1' />
+                    
+                    </div>
+                    <div className=' iconscontainer flex-grid'>
+                    <Icons  image={cssico} iname='CS1S' />
+                    <Icons  image={cssico} iname='CSS12' />
+                    </div>
+                <div className='  flex-grid'>
+                  <Icons  image={pythonico} iname='Python' />
+                   <Icons  image={cssico} iname='CSS' />
+               </div> */}
+                  {/* <div className='flexparent'>
                     <Icons image={jsico} iname='JavaScript' />
                     <Icons image={htmlico} iname='HTML5' />
-                    <Icons image={vsico} iname='Visual Studios' />
-                   </div>
-                   
+                    <Icons  image={pythonico} iname='Python' />
+                    <Icons  image={cssico} iname='CSS' />
+                    <Icons image={jsico} iname='ReactJS' />
+                    <Icons image={htmlico} iname='C#' />
+                    <Icons  image={pythonico} iname='Unity' />
+                    <Icons  image={cssico} iname='SPSS' />
+                </div>  */}
                 
             </div>
            
@@ -41,3 +78,11 @@ const Skillbox =()=>{
 }
 
 export default Skillbox;
+
+ {/* <div className='  iconscontainer'>
+                    <Icons image={jsico} iname='JavaScript' />
+                    <Icons image={htmlico} iname='HTML5' />
+                    <Icons  image={pythonico} iname='Python' />
+                    <Icons  image={cssico} iname='CSS' />
+                    
+                </div> */}
