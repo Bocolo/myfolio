@@ -18,7 +18,7 @@ const Skillbox =()=>{
             
         <div className='boxborder tc br4 grow'>
             {/* <div className='skillstitle f3 f2-m f1-l fw2  mv3'>Skills</div> */}
-            <div className=' f4 f3-m lh-copy'>
+            <div className=' f4 f6-m pa2  lh-copy'>
                 
                 <div id='skills'>
                     <div>
@@ -35,13 +35,7 @@ const Skillbox =()=>{
                     <Icons  image={cssico} iname='SQL' />
                     <Icons  image={cssico} iname='Krita' />
                    </div>
-                   <div>
-                    <Icons  image={pythonico} iname='.Net Framework' />
-                    <Icons  image={cssico} iname='PostgreSQL' />
-                    <Icons  image={pythonico} iname='Postman API' />
-                    <Icons  image={cssico} iname='Jupyter Notebook' />
-                    <Icons  image={cssico} iname='pgAdmin' />
-                   </div>
+                 
                 </div>
                 {/* <div className=' iconscontainer flex-grid'>
                 
@@ -85,4 +79,15 @@ export default Skillbox;
                     <Icons  image={pythonico} iname='Python' />
                     <Icons  image={cssico} iname='CSS' />
                     
-                </div> */}
+                </div>
+            
+            
+            
+              <div>
+                    <Icons  image={pythonico} iname='.Net Framework' />
+                    <Icons  image={cssico} iname='PostgreSQL' />
+                    <Icons  image={pythonico} iname='Postman API' />
+                    <Icons  image={cssico} iname='Jupyter Notebook' />
+                    <Icons  image={cssico} iname='pgAdmin' />
+                   </div>
+            */}

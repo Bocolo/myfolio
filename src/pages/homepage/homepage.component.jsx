@@ -18,7 +18,7 @@ const HomePage = () => (
     <div>
         <Banner/>
        
-        {/* <Me/> */}
+        <Me/>
         <Sample/>
         
         <Game/>

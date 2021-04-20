@@ -5,7 +5,7 @@ const Sample =()=>{
     return (
 
      
-        <div className='cccc '>
+        <div className='cccc pppp  '>
            
                
                 <div class='flex items-center w-80 bannerboxc pa4 cccc'>
