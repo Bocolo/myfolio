@@ -19,8 +19,8 @@ import Banner2 from '../../component/banners/banners.component';
 import './homepage.styles.scss';
 const HomePage = () => (
     <div>
-      <section class='sec1 brack'>
-          <div class='main-container'>
+      <section className='sec1 brack'>
+          <div className='main-container'>
               dsfa
           </div>
       </section>
