@@ -14,22 +14,28 @@ import Box from '../../components/box/box.component';
 import Projectcontainer from '../../components/projectcontainer/projectcontainer.component';
 import Game from '../../components/game/game.component';
 import TesterCollection from '../../components/tester/tester-collection.component';
-
+import Banner2 from '../../component/banners/banners.component';
 
 import './homepage.styles.scss';
 const HomePage = () => (
     <div>
-        {/* <Banner/> */}
-       <Box/>
-        <Me/>
-        {/* <Sample/> */}
-        <TesterCollection/>
-        <Game/>
-        <Projectcontainer  />
-        <Projects/>
-            
+      <section class='sec1 brack'>
+          <div class='main-container'>
+              dsfa
+          </div>
+      </section>
+            <Banner2/>
     </div>
 )
 
 
 export default HomePage;
+
+  {/* <Banner/>
+       <Box/>
+        <Me/>
+        <Sample/>
+        <TesterCollection/>
+        <Game/>
+        <Projectcontainer  />
+        <Projects/> */}

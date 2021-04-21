@@ -10,6 +10,8 @@ import ContactPage from './pages/contact/contact.component';
 
 const App=() =>{
   return (
+
+    
     <div className='flextest'>
       <Header/>
       <Switch>
