@@ -15,16 +15,20 @@ import Projectcontainer from '../../components/projectcontainer/projectcontainer
 import Game from '../../components/game/game.component';
 import TesterCollection from '../../components/tester/tester-collection.component';
 import Banner2 from '../../component/banners/banners.component';
+import Personal from '../../component/personal/personal.component';
 
 import './homepage.styles.scss';
 const HomePage = () => (
     <div>
-      <section className='sec1 brack'>
-          <div className='main-container'>
-              dsfa
-          </div>
-      </section>
-            <Banner2/>
+     
+            {/* <Banner2/> */}
+            {/* <Personal/> */}
+        <Me/>
+        {/* <Sample/>
+        <TesterCollection/>
+        <Game/>
+        <Projectcontainer  />
+        <Projects/> */}
     </div>
 )
 

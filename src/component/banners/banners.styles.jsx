@@ -10,15 +10,20 @@ object-fit:cover;
 `;
 export const BoxContainer=styled.div`
 
-border: 4px solid rgb(201, 34, 159, .7);
+  border: 4px solid rgb(201, 34, 159, .7);
   background: ${props=> props.background ||'rgb(0,0,0)'};
   width: ${props => props.width || '300px'};
   height: ${props => props.height || '200px'};
   margin:0 auto;
   display:block;
+  border-radius:25px;
  
 
  box-shadow: ${props=> props.boxShadow ||'0px 0px 30px 10px rgb(201, 34, 159)'};
+
+`;
+export const TextContainer=styled.div`
+padding: 15px;
 
 `;
 // background-image: ${props=> `url(${props.backgroundImage}` || ''};

@@ -7,7 +7,8 @@ import {Section,
     MainContainer} 
     from '../../components/sectionstyles/sectionstyles.styles';
 import {ProfileImg,
-        BoxContainer
+        BoxContainer,
+        TextContainer
 } from './banners.styles';
 import bluepaint from '../../imgs/bluepaint.jpg';
 const Banner2 = () => {
@@ -15,31 +16,22 @@ const Banner2 = () => {
     return(
         <Section >
             <MainContainer >
-                This is the styled component
-                <TwoColumnGrid>
-                  {/* I do not need seperate column components YET - currently the Same */}
+                This is the styled component Main Container
+                <TwoColumnGrid border='1px solid white'>
                     <LeftCol>
                         <OneColumnGrid>
-                            <div>Left Column Centered</div>
+                            <LeftCol  paddingTop='0px' paddingBottom='0px'>Left Column Centered</LeftCol>
                             <ProfileImg src={bluepaint}/>  
                             <LeftCol paddingTop='0px' paddingBottom='0px'>This is gonna be my profile sections</LeftCol>
-                            
-                        
                         </OneColumnGrid>
                     </LeftCol>
                     <RightCol>
                         <OneColumnGrid>
-                            {/* <RightCol paddingTop='0px' paddingBottom='0px'>Right Column Centered</RightCol> */}
                             <BoxContainer >
-                            <div>Testing Box</div>
-                                
+                                <TextContainer>Testing Box</TextContainer>
                             </BoxContainer>
-                            {/* <RightCol paddingTop='0px' paddingBottom='0px'>Right Column Centered</RightCol>
-                            <RightCol paddingTop='0px' paddingBottom='0px'>Right Column Centered</RightCol> */}
-                        
-                        </OneColumnGrid>
-
-                    </RightCol>
+                         </OneColumnGrid>
+                     </RightCol>
                 </TwoColumnGrid>
             </MainContainer>
         </Section>
