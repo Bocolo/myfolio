@@ -7,14 +7,28 @@ const Projects =()=>{
     return(
         <div>
             <article className="cf">
-                <div className="fl w-50 w-24-ns">
+            <div className="fl w-50 w-24-ns">
                     
-                    <div className="db aspect-ratio aspect-ratio--1x1 dim">
+            <div className="db aspect-ratio aspect-ratio--1x1 dim">
                         <span  style={{backgroundImage:`url(http://mrmrs.github.io/photos/justice.jpg)`}} className="bg-center cover aspect-ratio--object"></span>
                     </div>
 
                 </div>
-                <div className="fl w-50 w-24-ns">
+                <div className="fl w-25 w-24-ns">
+                    
+                    <div className="db aspect-ratio aspect-ratio--1x1 dim">
+                        <span  style={{backgroundImage:`url(http://mrmrs.github.io/photos/colouranything.jpg)`}} className="bg-center cover aspect-ratio--object"></span>
+                    </div>
+
+                </div>
+                <div className="fl w-20 w-24-ns">
+                    
+                    <div className="db aspect-ratio aspect-ratio--1x1 dim">
+                        <span  style={{backgroundImage:`url(http://mrmrs.github.io/photos/colouranything.jpg)`}} className="bg-center cover aspect-ratio--object"></span>
+                    </div>
+
+                </div>
+                <div className="fl w-25 w-24-ns">
                     
                     <div className="db aspect-ratio aspect-ratio--1x1 dim">
                         <span  style={{backgroundImage:`url(http://mrmrs.github.io/photos/colouranything.jpg)`}} className="bg-center cover aspect-ratio--object"></span>

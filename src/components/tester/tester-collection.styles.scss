@@ -23,10 +23,10 @@
         display: grid;
         grid-template-columns: 1fr 1fr ;
        // grid-gap: 2em;
-       grid-gap: 80px 250px;
+       //grid-gap: 80px 250px;
 
         @media screen and (max-width: 800px) {
-            align-items: center;
+           // align-items: center;
         }
 
         @media screen and (max-width: 800px) {
@@ -35,13 +35,13 @@
             grid-gap: 15px;
         }
         @media screen and (max-width: 1024px) {
-            align-items: center;
+           // align-items: center;
         }
 
         @media screen and (max-width: 1024px) {
             display: grid;
-            grid-template-columns: 1fr 1fr;
-            grid-gap: 35px;
+            grid-template-columns:  1fr 1fr;
+           //@at-root grid-gap: 35px;
         }
 
         & .pro-item {

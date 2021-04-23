@@ -10,21 +10,17 @@ export const HeaderContainer = styled.div`
     width: 100%;
     display: flex;
     justify-content: space-between;
-    background-color: black;
-   
-   
-    left:0;
+    background-color: #e5989b;
+   left:0;
     top:0;
     
    
-   
-  
     
 
 @media screen and (max-width: 800px) {
     height: 60px;
     padding: 10px;
-    margin-bottom: 20px;
+    
 }
     
 `;
@@ -43,7 +39,7 @@ export const OptionsContainer = styled.div`
         height: 100%;
         display: flex;
         align-items: center;
-        justify-content: flex-end;
+        justify-content: center;
         
         width: 100%;
 @media screen and (max-width: 800px) {
@@ -55,7 +51,7 @@ export const OptionsContainer = styled.div`
 
             padding: 10px 15px;
             cursor:pointer;
-            color: #6930c3;
+            color: black;
             font-weight: bold;
 `;
 export const OptionLink = styled(Link)`

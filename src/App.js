@@ -12,7 +12,7 @@ const App=() =>{
   return (
 
     
-    <div className='flextest'>
+    <div  className='flextest'>
       <Header/>
       <Switch>
         <Route exact path='/' component={HomePage} />

@@ -1,14 +1,20 @@
 import React from 'react';
-import './icons.styles.scss';
-
+// import './icons.styles.scss';
+import {IconContainer, 
+        ImageSizer
+} from './icons.styles.jsx';
 const Icons = ({image, iname})=> {
     return(
+        <IconContainer>
+            <ImageSizer src={image} alt={iname}/>
+            <div>{iname}</div>
+        </IconContainer>
         
-        <div className='iconcontainer  grow'>
-            <img  className='imagesizer'src={image} alt={iname}/>
+        // <div className='iconcontainer  grow'>
+        //     <img  className='imagesizer'src={image} alt={iname}/>
         
-            <div className='icontext'>{iname}</div>
-        </div>
+        //     <div className='icontext'>{iname}</div>
+        // </div>
     )
 }
 

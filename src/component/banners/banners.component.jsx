@@ -4,33 +4,43 @@ import {Section,
     OneColumnGrid,
     LeftCol,
     RightCol,
-    MainContainer} 
+    MainContainer,
+    TextContainer} 
     from '../../components/sectionstyles/sectionstyles.styles';
 import {ProfileImg,
-        BoxContainer,
-        TextContainer
+        BoxContainer
 } from './banners.styles';
 import bluepaint from '../../imgs/bluepaint.jpg';
+import profile from '../../imgs/profile.jpg';
 const Banner2 = () => {
 
     return(
         <Section >
             <MainContainer >
-                This is the styled component Main Container
-                <TwoColumnGrid border='1px solid white'>
+                
+                <TwoColumnGrid border='0px solid white'>
                     <LeftCol>
-                        <OneColumnGrid>
-                            <LeftCol  paddingTop='0px' paddingBottom='0px'>Left Column Centered</LeftCol>
-                            <ProfileImg src={bluepaint}/>  
-                            <LeftCol paddingTop='0px' paddingBottom='0px'>This is gonna be my profile sections</LeftCol>
-                        </OneColumnGrid>
+                      
+                            {/* <LeftCol  paddingTop='0px' paddingBottom='0px'>A lil about me </LeftCol> */}
+                            <ProfileImg src={profile} borderRadius='50%'/>  
+                            <LeftCol paddingTop='0px' paddingBottom='0px'>
+                            <br/>
+                                My Profile Picture ^^
+                                <br/> <br/>
+                                Theme Picker to Be Placed Here
+                            </LeftCol>
+                       
                     </LeftCol>
                     <RightCol>
-                        <OneColumnGrid>
-                            <BoxContainer >
-                                <TextContainer>Testing Box</TextContainer>
+                      
+                            <BoxContainer border='4px solid #b5838d' background ='#ffcdb2' boxShadow='0px 0px 30px 10px #b5838d' >
+                                <TextContainer fontWeight='bold' fontSize='25px' paddingTop='25px' >What I do</TextContainer>
+                                <TextContainer textAlign='left'>
+                                    I am a software developer, interested in web development and game design
+                                    
+                                </TextContainer>
                             </BoxContainer>
-                         </OneColumnGrid>
+                         
                      </RightCol>
                 </TwoColumnGrid>
             </MainContainer>

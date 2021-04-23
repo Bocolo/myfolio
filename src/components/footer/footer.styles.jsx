@@ -6,13 +6,13 @@ position: sticky;
   bottom: 0;
   width: 100%;
   height: 10%;
-  background-color: #e5989b;
+  background-color:#e5989b;
  
   
  
  
  `;
-
+ //#e5989b
 // positon relative or fixed
 export const FooterBot = styled.div`
 

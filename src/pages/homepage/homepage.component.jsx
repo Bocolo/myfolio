@@ -16,15 +16,18 @@ import Game from '../../components/game/game.component';
 import TesterCollection from '../../components/tester/tester-collection.component';
 import Banner2 from '../../component/banners/banners.component';
 import Personal from '../../component/personal/personal.component';
-
+import Tester from '../../components/tester/tester.component';
 import './homepage.styles.scss';
 const HomePage = () => (
     <div>
-     
-            {/* <Banner2/> */}
-            {/* <Personal/> */}
+        <Banner2/>
+        <Personal/>
+        {/* <Personal/>
+        <Banner2/>
+            
         <Me/>
-        {/* <Sample/>
+        <Sample/>
+        <Tester/>
         <TesterCollection/>
         <Game/>
         <Projectcontainer  />
