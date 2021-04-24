@@ -9,19 +9,21 @@ import ContactPage from './pages/contact/contact.component';
 import {ThemeProvider} from 'styled-components';
 import {GlobalStyles} from './components/theme/globalstyle.styles';
 import {pinkTheme,darkTheme} from './components/theme/theme.styles';
-
+import {useDarkMode} from './components/theme/usedarkmode';
+import Toggler from './components/toggler/toggler';
 const App=() =>{
-  const [theme, setTheme] =useState('pink');
-  const themeToggler =()=>{
-    theme === 'pink' ? setTheme('dark'):setTheme('pink')
-  }
+  const [theme, themeToggler, mountedComponent] =useDarkMode();
+  const themeMode =
+    theme === 'pink' ? pinkTheme:darkTheme;
+  if(!mountedComponent) return<div/>
   return (
 
-   <ThemeProvider theme={theme === 'pink'? pinkTheme:darkTheme}>
+   <ThemeProvider theme={themeMode}>
      <>
      <GlobalStyles/>
      <div  className='flextest'>
        <Header/>
+       <Toggler theme={theme} toggleTheme={themeToggler}/>
        <button onClick={themeToggler}>This is a button</button>
        <Switch>
          <Route exact path='/' component={HomePage} />
