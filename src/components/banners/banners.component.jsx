@@ -12,7 +12,7 @@ import {ProfileImg
 } from './banners.styles';
 import bluepaint from '../../imgs/bluepaint.jpg';
 import profile from '../../imgs/profile.jpg';
-const Banner2 = () => {
+const Banner = () => {
 
     return(
         <Section >
@@ -50,4 +50,4 @@ const Banner2 = () => {
     )
 }
 
-export default Banner2;
+export default Banner;

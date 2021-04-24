@@ -11,7 +11,7 @@ import designmix from '../../imgs/designmix.jpg';
 
 import designpurple from '../../imgs/designpurple.jpg';
 
-const Banner = () => {
+const Banner1 = () => {
     return (
 
    
@@ -29,4 +29,4 @@ const Banner = () => {
 }
 //'https://i.ibb.co/GCCdy8t/womens.png'
 
-export default Banner;
+export default Banner1;
