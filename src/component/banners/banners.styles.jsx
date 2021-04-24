@@ -9,21 +9,7 @@ object-fit:cover;
 border-radius: ${props=> props.borderRadius || ''};
 
 `;
-export const BoxContainer=styled.div`
 
-  border: ${props=> props.border ||'4px solid rgb(201, 34, 159, .7)'};
-  background: ${props=> props.background ||'rgb(0,0,0)'};
-  width: ${props => props.width || '300px'};
-  height: ${props => props.height || '200px'};
-  margin:0 auto;
-  
-  display:block;
-  border-radius:25px;
- 
-  color:${props => props.color ||''};
-  box-shadow: ${props=> props.boxShadow ||'0px 0px 30px 10px rgb(201, 34, 159)'};
-
-`;
 
 // background-image: ${props=> `url(${props.backgroundImage}` || ''};
 //border: 4px solid rgb(201, 34, 159, .7);

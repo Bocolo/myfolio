@@ -22,6 +22,8 @@ const HomePage = () => (
     <div>
         <Banner2/>
         <Personal/>
+        <Game/>
+        <Projects/> 
         {/* <Personal/>
         <Banner2/>
             
@@ -29,7 +31,7 @@ const HomePage = () => (
         <Sample/>
         <Tester/>
         <TesterCollection/>
-        <Game/>
+        
         <Projectcontainer  />
         <Projects/> */}
     </div>

@@ -13,6 +13,7 @@ export const HeaderContainer = styled.div`
     background-color: #e5989b;
    left:0;
     top:0;
+    font-size:22px;
     
    
     

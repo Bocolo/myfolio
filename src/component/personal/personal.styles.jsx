@@ -5,22 +5,7 @@ export const AboutContainer= styled.div`
 
 `;
 
-export const SkillsContainer =styled.div`
-width:50%;
-padding-left: 5%;
-padding-right:  5%;
-padding-top: 3%;
-padding-bottom: 3%;
 
-@media screen and (max-width:800px) {
-    width:100%;
-    padding-left: 10%;
-    padding-right:  10%;
-   
-    padding-bottom: 10%;
-   
-}
-`;
 {/*padding-left: 5%;
 padding-right:  5%;
 padding-top: 3%;
@@ -56,12 +41,4 @@ box-shadow: 0px 0px 30px 10px rgb(201, 34, 159);
    
 }
 `;
-export const ColumnSide=styled.div`
-display:flex; 
-flex-direction:row;
-gap: 10px;
 
-@media screen and (max-width:800px) {
-    flex-direction: column;
-}
-`;
