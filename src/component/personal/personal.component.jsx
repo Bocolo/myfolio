@@ -42,7 +42,7 @@ const Personal =() =>{
                    
                             <br/>
                                                 
-                            <BoxContainer  height='auto' width='auto'  border='4px solid #b5838d' background ='#ffcdb2' boxShadow='0px 0px 30px 10px #b5838d' >
+                            <BoxContainer  height='auto' width='auto'  border='4px solid #b5838d' boxShadow='0px 0px 30px 10px #b5838d' >
                                
                                     <TextContainer lineHeight='1.5' fontSize='28px'>
                                     <SkillsIcons>

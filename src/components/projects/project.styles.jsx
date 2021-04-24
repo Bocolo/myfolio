@@ -6,7 +6,7 @@ overflow:auto;
 
 export const ProjectArticle=styled.div`
 
-background:${props => props.background ||'#ffcdb2'};
+background:${({ theme }) => theme.mainContainerBackground};
 
 box-shadow:
   0 5px 10px rgba(0, 0, 0, 0.1),
@@ -65,14 +65,14 @@ grid-gap:1em;
 padding-left:10px;
 padding-right:10px;
 padding:10px;
-background:#B5838D;
+background:${({ theme }) => theme.boxBorderColor};
 //box-shadow: 0px 0px 40px 10px #B5838D;
 
 @media(max-width:900px){
     grid-template-columns:1fr;
     padding-left:0px;
 padding-right:0px;
-background:#FFB4A2;
+background:${({ theme }) => theme.mainBackground};
 
 }
 `;

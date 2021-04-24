@@ -33,7 +33,7 @@ const Banner2 = () => {
                     </LeftCol>
                     <RightCol>
                       
-                            <BoxContainer border='4px solid #b5838d' background ='#ffcdb2' boxShadow='0px 0px 30px 10px #b5838d' >
+                            <BoxContainer   boxShadow='0px 0px 30px 10px #b5838d' >
                                 <TextContainer fontWeight='bold' fontSize='25px' paddingTop='25px' >Who am I</TextContainer>
                                 <TextContainer textAlign='left'>
                                     

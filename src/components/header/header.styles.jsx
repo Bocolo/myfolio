@@ -10,7 +10,7 @@ export const HeaderContainer = styled.div`
     width: 100%;
     display: flex;
     justify-content: space-between;
-    background-color: #e5989b;
+    background-color:${({ theme }) => theme.headFootColor};
    left:0;
     top:0;
     font-size:22px;
@@ -52,7 +52,7 @@ export const OptionsContainer = styled.div`
 
             padding: 10px 15px;
             cursor:pointer;
-            color: black;
+            color:${({ theme }) => theme.textColor};
             font-weight: bold;
 `;
 export const OptionLink = styled(Link)`

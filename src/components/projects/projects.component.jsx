@@ -1,5 +1,5 @@
 import React from 'react';
-import './project.styles.scss';
+
 import {
     ClearField,
     ProjectImageContainer,

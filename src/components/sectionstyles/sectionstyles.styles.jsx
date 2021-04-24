@@ -2,19 +2,19 @@ import styled from 'styled-components';
 
 
 export const Section=styled.section`
-background: ${props => props.background || '#ffb4a2'};
+background:{({ theme }) => theme.mainBackground};
 overflow:auto;
 height:${props=>props.height ||'auto'};
 border-bottom: ${props=> props.borderBottom || '1px solid white'};
 `;
 
 
-
+//{({ theme }) => theme.mainBackground}
 export const MainContainer =styled.div`
 width: ${props => props.width || '1200px'};
 height:${props=>props.height ||'auto'};
 margin:0 auto;
-background: ${props=> props.background ||'#ffcdb2'};
+background: ${({ theme }) => theme.mainContainerBackground};
 
 @media (max-width:1250px){
     max-width:90%;
@@ -121,10 +121,15 @@ line-height: ${props=> props.lineHeight };
     padding-top:0px;
 }
 `;
+//${({ theme }) => theme.mainBackground}
+//${props=> props.background ||'rgb(0,0,0)'}
+//background: ${props=> props.background ||'${({ theme }) => theme.mainBackground}'};
+
 export const BoxContainer=styled.div`
 
-  border: ${props=> props.border ||'4px solid rgb(201, 34, 159, .7)'};
-  background: ${props=> props.background ||'rgb(0,0,0)'};
+  border: ${props=> props.border ||'4px solid ${({ theme }) => theme.boxBorderColor}'};
+  background:${({ theme }) => theme.mainContainerBackground};
+
   width: ${props => props.width || '300px'};
   height: ${props => props.height || '200px'};
   margin:0 auto;

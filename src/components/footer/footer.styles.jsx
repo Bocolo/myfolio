@@ -6,7 +6,7 @@ position: sticky;
   bottom: 0;
   width: 100%;
   height: 10%;
-  background-color:#e5989b;
+  background-color:${({ theme }) => theme.headFootColor};
  
   
  
@@ -25,7 +25,7 @@ text-align: center;
 font-weight:bold;`;
 export const FooterText = styled.div`
 padding-top:2%;
-color: #3D3D3D;
+color:${({ theme }) => theme.textColor};
 
 text-align: center;
 font-weight:bold;
