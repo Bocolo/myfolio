@@ -1,5 +1,6 @@
 import React from 'react';
-
+import SurvEndScreen from '../../imgs/survivalscreenshot.png';
+import RPGscreen from '../../imgs/rpg.png';
 import {
     ClearField,
     ProjectImageContainer,
@@ -40,7 +41,7 @@ return(
 
 </ProjectArticle>
 )
-}
+};
 
 
 const Projects =()=>{
@@ -52,11 +53,12 @@ const Projects =()=>{
         <div>
         <MainContainer >
         <ProjectColumns>
-            <Image imageUrl={imageUrl}/>
+            <Image imageUrl={SurvEndScreen}/>
             <Description description={description} text={text}/>
             
-            <Image imageUrl={imageUrl}/>
+            <Image imageUrl={RPGscreen}/>
             <Description description={description} text={text}/>
+            
         </ProjectColumns>
     </MainContainer>
     </div>)
@@ -67,9 +69,10 @@ const Projects =()=>{
             <MainContainer>
                 <ProjectColumns>
                     <Description description={description} text={text}/>
-                    <Image imageUrl={imageUrl}/>
-                    <Image imageUrl={imageUrl}/>
+                    <Image imageUrl={SurvEndScreen}/>
+                    <Image imageUrl={RPGscreen}/>
                     <Description description={description} text={text}/>
+                    
                 </ProjectColumns>
             </MainContainer>
         </div>
