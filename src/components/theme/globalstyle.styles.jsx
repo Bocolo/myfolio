@@ -7,4 +7,3 @@ export const GlobalStyles = createGlobalStyle`
     transition: all 0.50s linear;
   }
   `;
-  //'Courier New','Open Sans Condensed', sans-serif;

@@ -11,6 +11,11 @@ import {GlobalStyles} from './components/theme/globalstyle.styles';
 import {pinkTheme,darkTheme} from './components/theme/theme.styles';
 import {useDarkMode} from './components/theme/usedarkmode';
 import Toggler from './components/toggler/toggler';
+
+
+
+
+
 const App=() =>{
   const [theme, themeToggler, mountedComponent] =useDarkMode();
   const themeMode =
@@ -23,6 +28,7 @@ const App=() =>{
      <GlobalStyles/>
      <div  className='flextest'>
        <Header/>
+     
        <Toggler theme={theme} toggleTheme={themeToggler}/>
        <button onClick={themeToggler}>This is a button</button>
        <Switch>

@@ -3,12 +3,14 @@ import Projects from '../../components/projects/projects.component';
 import Game from '../../components/game/game.component';
 import Banner from '../../components/banners/banners.component';
 import Personal from '../../component/personal/personal.component';
+import GameWebGL from '../../components/gamewebgl/gamewebgl.component';
 
 import './homepage.styles.scss';
 const HomePage = () => (
     <div>
         <Banner/>
         <Personal/>
+        
         <Game/>
         <Projects/> 
    

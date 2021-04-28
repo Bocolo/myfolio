@@ -1,5 +1,6 @@
 import React from 'react';
-import {} from './game.styles';
+import {GameContainer} from './game.styles';
+import GameWebGL from '../gamewebgl/gamewebgl.component';
 import {
     Section,
     MainContainer,
@@ -15,12 +16,17 @@ const Game =()=>{
                <MainContainer>
                     <TitleContainer>
                       ~~~~ Game Block ~~~~
+                      
+                    
                     </TitleContainer>
+                    <GameWebGL/>    
                </MainContainer>
+              
            </Section>
            <div className='ttu tc f4 pa4 brack'>
                Game Block
            </div>
+           
        </div>
     )
 }
