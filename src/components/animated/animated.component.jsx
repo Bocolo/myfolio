@@ -1,5 +1,5 @@
 import React from 'react';
-import './animated/styles/scss';
+import './animated.styles.jsx';
 
 const Animated =()=>{
 
@@ -7,3 +7,5 @@ const Animated =()=>{
     <div></div>
     )
 }
+
+export default Animated;

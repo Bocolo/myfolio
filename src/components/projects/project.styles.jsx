@@ -67,7 +67,7 @@ grid-gap:1em;
 padding-left:10px;
 padding-right:10px;
 padding:10px;
-background:${({ theme }) => theme.boxBorderColor};
+background:${({ theme }) => theme.otherBackground};
 //box-shadow: 0px 0px 40px 10px #B5838D;
 ${props => props.fourCol && css`
 grid-template-columns:1fr 1fr 1fr 1fr;
@@ -76,7 +76,8 @@ grid-template-columns:1fr 1fr 1fr 1fr;
 }`}
 
 @media(max-width:700px){
-    grid-template-columns: 1fr;
+    grid-template-columns:  .7fr;
+    justify-content:center;
     padding-left:0px;
 padding-right:0px;
 background:${({ theme }) => theme.mainBackground};

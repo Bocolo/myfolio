@@ -25,7 +25,7 @@ text-align: center;
 font-weight:bold;`;
 export const FooterText = styled.div`
 padding-top:2%;
-color:${({ theme }) => theme.textColor};
+color:${({ theme }) => theme.headFootColorText} ;
 
 text-align: center;
 font-weight:bold;

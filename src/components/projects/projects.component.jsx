@@ -32,9 +32,9 @@ const Description=({description,text})=>{
     const newText =text.split('\n').map((str,i)=><p key={i}>{str}</p>);
 return(
     <ProjectArticle>
-    <TitleContainer >
+    <TitleContainer smFontSize='24' >
         {description}
-    </TitleContainer>
+    </TitleContainer >
     <TextContainer>
        {newText}
     </TextContainer>
@@ -73,7 +73,11 @@ const Projects =()=>{
                     <Description description={description} text={text}/>
                   
                     <Image imageUrl={RPGscreen}/>
-               
+                    <Description description={description} text={text}/>
+                    <Image imageUrl={SurvEndScreen}/>
+                    <Description description={description} text={text}/>
+                  
+                    <Image imageUrl={RPGscreen}/>
                     
                 </ProjectColumns>
             </MainContainer>

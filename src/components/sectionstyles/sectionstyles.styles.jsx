@@ -138,7 +138,7 @@ line-height: ${props=> props.lineHeight };
 
 export const BoxContainer=styled.div`
 
-  border: ${props=> props.border ||'4px solid ${({ theme }) => theme.boxBorderColor}'};
+  border: 1px solid ${({ theme }) => theme.boxBorderColor};
   background:${({ theme }) => theme.mainContainerBackground};
 
   width: ${props => props.width || '300px'};
@@ -150,7 +150,8 @@ export const BoxContainer=styled.div`
 
  
   color:${props => props.color ||''};
-  box-shadow: ${props=> props.boxShadow ||'0px 0px 30px 10px rgb(201, 34, 159)'};
+  box-shadow: 0px 0px 30px 10px ${({ theme }) => theme.boxBorderColor};
 
   position: ${props=> props.position};
 `;
+//rgb(201, 34, 159)

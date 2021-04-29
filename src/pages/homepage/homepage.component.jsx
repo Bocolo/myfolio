@@ -3,7 +3,7 @@ import Projects from '../../components/projects/projects.component';
 import Game from '../../components/game/game.component';
 import Banner from '../../components/banners/banners.component';
 import Personal from '../../component/personal/personal.component';
-
+import Animated from '../../components/animated/animated.component';
 
 import './homepage.styles.scss';
 const HomePage = () => {
@@ -12,10 +12,13 @@ const HomePage = () => {
  
     return(
         <div>
+            <Animated/>
             <Banner/>
             {/* <Personal/> */}
             {display?(<Game/>):(<></>)}
+
             <Projects/> 
+            <br/><br/><br/><br/>
     
         </div>  
     );

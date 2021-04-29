@@ -28,9 +28,7 @@ const Game =()=>{
                </MainContainer>
               
            </Section>
-           <div className='ttu tc f4 pa4 brack'>
-               Game Block
-           </div>
+           <br/><br/><br/><br/>
            
        </div>
     )

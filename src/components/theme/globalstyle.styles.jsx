@@ -6,4 +6,7 @@ export const GlobalStyles = createGlobalStyle`
     font-family: 'Courier New','Open Sans Condensed', sans-serif;
     transition: all 0.50s linear;
   }
+  a{
+    color: ${({theme})=>theme.hyperColor};
+  }
   `;

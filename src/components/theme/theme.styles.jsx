@@ -1,18 +1,46 @@
 export const pinkTheme={
    
     headFootColor:'#e5989b',
+    headFootTextColor: 'black',
     mainBackground:'#ffb4a2',
     mainContainerBackground:'#ffcdb2',
     boxBorderColor:'#b5838d',
-    textColor:'black'
+    textColor:'black',
+    hyperColor: 'white',
+    otherBackground:'#b5838d'
 }
 export const darkTheme={
     headFootColor:'#343946',
+    headFootTextColor: 'white',
     mainBackground:'#4E556A',
     mainContainerBackground:'#575F75',
     boxBorderColor:'#ADB3C2',
-    textColor:'white'
+    textColor:'white',
+    hyperColor: 'black',
+    otherBackground:'#ADB3C2'
 }
+export const whiteTheme={
+    headFootColor:'black',
+    headFootTextColor: 'white',
+    mainBackground:'white' , 
+    mainContainerBackground:'white',
+    boxBorderColor:'white',
+    textColor:'black',
+    hyperColor: 'white',
+    otherBackground:''
+
+}
+//#b5838d
+//6F6866 - grey brown 
+// export const whiteTheme={
+//     headFootColor:'#dee2ff',
+//     mainBackground:'white' , 
+//     mainContainerBackground:'#e2eafc',
+//     boxBorderColor:'#edf2fb',
+//     textColor:'black',
+//     hyperColor: 'white'
+
+// }
 
 // const TempColors = {
 // light={
