@@ -1,4 +1,4 @@
-import React from 'react';
+import React , {useState}from 'react';
 import Projects from '../../components/projects/projects.component';
 import Game from '../../components/game/game.component';
 import Banner from '../../components/banners/banners.component';
@@ -6,17 +6,25 @@ import Personal from '../../component/personal/personal.component';
 import GameWebGL from '../../components/gamewebgl/gamewebgl.component';
 
 import './homepage.styles.scss';
-const HomePage = () => (
-    <div>
+const HomePage = () => {
+    const [display, setDisplay] = useState(true);
+    window.addEventListener('touchstart', function userTouch(){setDisplay(false);})
+    // let width = window.innerWidth;
+    // if (width < 850){
+    return(
+       
+  
+        <div>
         <Banner/>
         <Personal/>
-        
-        <Game/>
+        {display?(<Game/>):(<></>)}
+        {/* <Game/> */}
         <Projects/> 
    
-    </div>
-)
-
+    </div>  
+    );
+}
+    
 
 export default HomePage;
     

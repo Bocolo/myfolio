@@ -11,15 +11,13 @@ const GameWebGL =()=>{
 
     return(
         <div >
-            <div>MyGame</div>
-            <div >
-            <GameContainer>
-              
-                                     
-                <Unity unityContent={unityContent}  />
-                       
-            </GameContainer>
-            </div>
+            
+             <GameContainer>
+               <Unity unityContent={unityContent}  
+               
+                />
+             </GameContainer>
+           
         </div>
     )
 

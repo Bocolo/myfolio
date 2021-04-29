@@ -17,7 +17,11 @@ margin:0 auto;
 background: ${({ theme }) => theme.mainContainerBackground};
 
 @media (max-width:1250px){
-    max-width:90%;
+   width:90%;
+   
+}
+@media (min-width:1260px and max-width:4000px){
+    width:80%;
 }
 `;
 //possibly adding border radius
@@ -117,7 +121,7 @@ line-height: ${props=> props.lineHeight };
 @media (max-width:850px){
     font-size:${props => props.smFontSize || '32px'};
     line-height:1;
-    padding-bottom:6px;
+    padding-bottom:15px;
     padding-top:0px;
 }
 `;

@@ -29,7 +29,7 @@ const Image =({imageUrl})=>{
 </ImageAspect>)
 };
 const Description=({description,text})=>{
-    const newText =text.split('\n').map(str=><p>{str}</p>);
+    const newText =text.split('\n').map((str,i)=><p key={i}>{str}</p>);
 return(
     <ProjectArticle>
     <TitleContainer paddingTop='100px'>

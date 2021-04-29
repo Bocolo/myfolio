@@ -2,11 +2,30 @@ import styled from 'styled-components';
 
 
 export const GameContainer=styled.div`
-width:540px; 
-height:960px;
+width:450px; 
+height:800px;
 padding:0px;
 margin:0px auto; 
 position:relative;
+@media(max-width:1700px){
+  width:405px; 
+height:720px;
+}
+@media(max-width:600px){
+  width:315px; 
+  height:560px;
+}
+
+
+`;
+export const InstructionsContainer=styled.div`
+border: ${props=> props.border ||'4px solid black'};
+width:80%;
+height:80%;
+border-radius:25px;
+padding:20px;
+margin:0 auto;
+
 
 
 `;
@@ -20,9 +39,11 @@ background:${({ theme }) => theme.boxBorderColor};
     grid-template-columns:1fr;
     padding-left:0px;
 padding-right:0px;
+
 background:${({ theme }) => theme.mainBackground};
 
 }
+
 `;
 export const GameItem=styled.div`
 
