@@ -13,8 +13,8 @@ const HomePage = () => {
     return(
         <div>
             <Animated/>
-            <Banner/>
-            {/* <Personal/> */}
+            {/* <Banner/> */}
+            <Personal/>
             {display?(<Game/>):(<></>)}
 
             <Projects/> 

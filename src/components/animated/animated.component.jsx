@@ -1,10 +1,15 @@
 import React from 'react';
-import './animated.styles.jsx';
+import {mainImageBG} from './animated.styles.jsx';
+import './animated.styles.scss';
+import computer from '../../imgs/computer.jpg';
 
 const Animated =()=>{
 
     return(
-    <div></div>
+    <div>
+        <img className="imgban" src={computer} alt='' />
+        {/* <mainImageBG src={computer} alt='f'/> */}
+    </div>
     )
 }
 

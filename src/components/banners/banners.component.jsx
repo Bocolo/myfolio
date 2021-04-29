@@ -16,7 +16,7 @@ const Banner = () => {
 
     return(
         <Section >
-            <MainContainer >
+            <MainContainer width='1300'>
                 
                 <TwoColumnGrid border='0px solid white'>
                     <LeftCol>
