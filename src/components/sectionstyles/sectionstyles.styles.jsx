@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled,{css} from 'styled-components';
 
 
 export const Section=styled.section`
@@ -11,18 +11,25 @@ border-bottom: ${props=> props.borderBottom || '1px solid white'};
 
 //{({ theme }) => theme.mainBackground}
 export const MainContainer =styled.div`
-width: ${props => props.width || '1200px'};
+width: ${props => props.width || '1200'}px;
 height:${props=>props.height ||'auto'};
 margin:0 auto;
 background: ${({ theme }) => theme.mainContainerBackground};
-
-@media (max-width:1250px){
-   width:90%;
-   
-}
-@media (min-width:1260px and max-width:4000px){
+${props=> props.projects && css`
+width:1400px;
+@media(max-width:1472px){
     width:80%;
 }
+`}
+@media (max-width:1400px){
+    width:80%;
+    
+ }
+ @media (max-width:1200px){
+    width:90%;
+    
+ }
+
 `;
 //possibly adding border radius
 export const TwoColumnGrid=styled.div`

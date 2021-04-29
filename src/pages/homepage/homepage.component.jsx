@@ -3,14 +3,7 @@ import Projects from '../../components/projects/projects.component';
 import Game from '../../components/game/game.component';
 import Banner from '../../components/banners/banners.component';
 import Personal from '../../component/personal/personal.component';
-import GameWebGL from '../../components/gamewebgl/gamewebgl.component';
 
-
-import {TempContainer} from '../contact/contact.styles';
-
-import Box from '../../components/box/box.component';
-   import Tester from '../../components/tester/tester.component';
-import TesterCollection from '../../components/tester/tester-collection.component';
 
 import './homepage.styles.scss';
 const HomePage = () => {
@@ -18,22 +11,13 @@ const HomePage = () => {
     window.addEventListener('touchstart', function userTouch(){setDisplay(false);})
  
     return(
-       
-  
         <div>
-        
-           
-           
-          
-            <Tester/>
-            <TesterCollection/>
-        <Banner/>
-        <Personal/>
-        {display?(<Game/>):(<></>)}
-        
-        <Projects/> 
-   
-    </div>  
+            <Banner/>
+            {/* <Personal/> */}
+            {display?(<Game/>):(<></>)}
+            <Projects/> 
+    
+        </div>  
     );
 }
     
@@ -42,7 +26,17 @@ export default HomePage;
     
         
        
-        {/* <Personal/>
+        {/* 
+            
+            
+            import {TempContainer} from '../contact/contact.styles';
+
+import Box from '../../components/box/box.component';
+   import Tester from '../../components/tester/tester.component';
+import TesterCollection from '../../components/tester/tester-collection.component';
+
+
+            <Personal/>
         <Banner2/>
             
         <Me/>

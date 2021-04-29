@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled,{css} from 'styled-components';
 
 export const Overflow=styled.div`
 overflow:auto;
@@ -57,7 +57,9 @@ z-index: 100;
     transition: opacity .15s ease-in;
 }
 
+
 `;
+
 export const ProjectColumns=styled.div`
 display:grid;
 grid-template-columns:1fr 1fr;
@@ -67,9 +69,14 @@ padding-right:10px;
 padding:10px;
 background:${({ theme }) => theme.boxBorderColor};
 //box-shadow: 0px 0px 40px 10px #B5838D;
+${props => props.fourCol && css`
+grid-template-columns:1fr 1fr 1fr 1fr;
+@media(max-width:1472px){
+    grid-template-columns:1fr 1fr 
+}`}
 
-@media(max-width:900px){
-    grid-template-columns:1fr;
+@media(max-width:700px){
+    grid-template-columns: 1fr;
     padding-left:0px;
 padding-right:0px;
 background:${({ theme }) => theme.mainBackground};
