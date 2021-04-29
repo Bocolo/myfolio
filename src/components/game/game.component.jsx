@@ -15,11 +15,9 @@ const Game =()=>{
        <div>
            <Section>
                <MainContainer>
-               <TitleContainer>
-                          ~~~~ Game Block ~~~~
-                       
-                       
-                </TitleContainer>
+               <TitleContainer fontSize='48px'  textAlign='center' paddingBottom="40px"paddingTop="40px">
+                   Let's Play a Game</TitleContainer>
+
                 <ProjectColumns>
                     
                     <GameInstructions/>
