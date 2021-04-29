@@ -1,11 +1,10 @@
 import React from 'react';
 import './box.styles.scss';
-import Skillbox from '../skillbox/skillbox.component';
-import Skills from '../skills/skills.component';
-import About from '../about/about.component';
+
+
 import bluepaint from '../../imgs/bluepaint.jpg';
 import Profile from '../profile/profile.component';
-import Whatido from '../whatido/whatido.component';
+// import Whatido from '../whatido/whatido.component';
 
 const Boxx =()=>{
     const hidden=true;

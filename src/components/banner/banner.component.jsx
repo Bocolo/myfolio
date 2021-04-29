@@ -1,7 +1,6 @@
 import React from 'react';
 import './banner.styles.scss'
 import Whatido from '../whatido/whatido.component';
-import Containerbox from '../containerbox/containerbox.component';
 import Box from '../box/box.component';
 import westwater from '../../imgs/westwater.jpg';
 import computer from '../../imgs/computer.jpg';

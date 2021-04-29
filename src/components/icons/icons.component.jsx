@@ -1,5 +1,4 @@
 import React from 'react';
-// import './icons.styles.scss';
 import {IconContainer, 
         ImageSizer
 } from './icons.styles.jsx';

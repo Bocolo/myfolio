@@ -21,7 +21,7 @@ import {AboutContainer,
 import pythonico from '../../imgs/pythonico.svg';
 import cssico from '../../imgs/cssico.svg';
 // import {BoxContainer} from '../banners/banners.styles';
-import SkillsBox from '../../components/skillbox/skillbox.component';
+
 
 const Personal =() =>{
 

@@ -5,20 +5,32 @@ import Banner from '../../components/banners/banners.component';
 import Personal from '../../component/personal/personal.component';
 import GameWebGL from '../../components/gamewebgl/gamewebgl.component';
 
+
+import {TempContainer} from '../contact/contact.styles';
+
+import Box from '../../components/box/box.component';
+   import Tester from '../../components/tester/tester.component';
+import TesterCollection from '../../components/tester/tester-collection.component';
+
 import './homepage.styles.scss';
 const HomePage = () => {
     const [display, setDisplay] = useState(true);
     window.addEventListener('touchstart', function userTouch(){setDisplay(false);})
-    // let width = window.innerWidth;
-    // if (width < 850){
+ 
     return(
        
   
         <div>
+        
+           
+           
+          
+            <Tester/>
+            <TesterCollection/>
         <Banner/>
         <Personal/>
         {display?(<Game/>):(<></>)}
-        {/* <Game/> */}
+        
         <Projects/> 
    
     </div>  

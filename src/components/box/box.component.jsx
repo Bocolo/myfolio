@@ -1,11 +1,9 @@
 import React from 'react';
 import './box.styles.scss';
-import Skillbox from '../skillbox/skillbox.component';
-import Skills from '../skills/skills.component';
-import About from '../about/about.component';
+
+
 import bluepaint from '../../imgs/bluepaint.jpg';
 import Profile from '../profile/profile.component';
-import Whatido from '../whatido/whatido.component';
 
 const Box =()=>{
     const hidden=true;
@@ -16,7 +14,7 @@ const Box =()=>{
                 <div className='boxtitlecont'>
                     <div className='tc ttu  titlewrap'>box xomponent title</div>
                 
-                    <div className='colside '>
+                    <div>
                     
                         <div className='section3'><Profile /></div>
                         <div className='section3 tc '>
