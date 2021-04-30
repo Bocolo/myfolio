@@ -4,6 +4,7 @@ import Game from '../../components/game/game.component';
 import Banner from '../../components/banners/banners.component';
 import Personal from '../../component/personal/personal.component';
 import Animated from '../../components/animated/animated.component';
+import computer from '../../imgs/computer.jpg';
 
 import './homepage.styles.scss';
 const HomePage = () => {
@@ -12,8 +13,8 @@ const HomePage = () => {
  
     return(
         <div>
-            <Animated/>
-            {/* <Banner/> */}
+            <Animated />
+            <Banner/>
             <Personal/>
             {display?(<Game/>):(<></>)}
 

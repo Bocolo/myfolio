@@ -26,7 +26,7 @@ export const whiteTheme={
     mainContainerBackground:'white',
     boxBorderColor:'white',
     textColor:'black',
-    hyperColor: 'white',
+    hyperColor: 'red',
     otherBackground:''
 
 }

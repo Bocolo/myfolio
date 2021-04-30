@@ -11,6 +11,10 @@ position:relative;
   width:405px; 
 height:720px;
 }
+@media(max-width:850px){
+width:360px;
+height:640px;
+}
 @media(max-width:600px){
   width:315px; 
   height:560px;
