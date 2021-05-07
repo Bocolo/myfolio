@@ -70,7 +70,7 @@ padding:10px;
 background:${({ theme }) => theme.otherBackground};
 //box-shadow: 0px 0px 40px 10px #B5838D;
 ${props => props.fourCol && css`
-grid-template-columns:1fr 1fr 1fr 1fr;
+grid-template-columns:1fr 1fr 1fr 1fr ;
 @media(max-width:1472px){
     grid-template-columns:1fr 1fr 
 }`}

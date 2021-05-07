@@ -4,8 +4,9 @@ import Game from '../../components/game/game.component';
 import Banner from '../../components/banners/banners.component';
 import Personal from '../../component/personal/personal.component';
 import Animated from '../../components/animated/animated.component';
+import Languages from '../../components/skills/languages.component';
 import computer from '../../imgs/computer.jpg';
-
+import Me from '../../components/me/me.component';
 import './homepage.styles.scss';
 const HomePage = () => {
     const [display, setDisplay] = useState(true);
@@ -14,13 +15,16 @@ const HomePage = () => {
     return(
         <div>
             <Animated />
-            <Banner/>
-            <Personal/>
+           <Me/>
             {display?(<Game/>):(<></>)}
+            
+            {/* <Banner/> */}
+            {/* <Personal/> */}
+            
 
             <Projects/> 
             <br/><br/><br/><br/>
-    
+            <Languages/> 
         </div>  
     );
 }
