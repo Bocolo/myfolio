@@ -15,7 +15,17 @@ width:35px;
  
   margin-bottom: 20px;
 `;
+export const SvgAvatar= styled.div`
+display:flex;
+justify-content:center;
+svg{
+height:100px; 
+width:100px;
+margin:10px;
+margin-bottom:40px;
+}
 
+`;
 export const SvgStyle= styled.div`
 display:flex;
 
@@ -69,7 +79,7 @@ width:40%;
 
 `;
 export const SvgJS= styled(SvgStyle)`
-svg{ fill: Black;}
+svg{ fill: White;}
 &:hover svg{fill:#FFD845;}
 `;
 export const SvgPy= styled(SvgStyle)`

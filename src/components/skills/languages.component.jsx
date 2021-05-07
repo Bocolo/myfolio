@@ -8,6 +8,7 @@ import {ReactComponent as Python} from '../../svgs/python.svg';
 import {ReactComponent as Reacti} from '../../svgs/react.svg';
 import {SvgJS,SvgPy,SvgStyle,
     SvgCSS, SvgHTML, SvgReact, IconContainer} from '../icons/icons.styles.jsx';
+import {MeContainer} from '../../components/me/me.styles';
 
 
 
@@ -16,17 +17,20 @@ import {SvgJS,SvgPy,SvgStyle,
 const Languages =() => {
 
     return(
-        <IconContainer>
-            <SvgStyle><CSharp/></SvgStyle>
-            <SvgJS><JavaScript/></SvgJS>
-            <SvgPy><Python/></SvgPy>
-            <SvgReact><Reacti/></SvgReact>
-            <SvgCSS><CSS/></SvgCSS>
-            <SvgHTML><HTML/></SvgHTML>
+        
+            <MeContainer>
+                <icons>
+                    <SvgStyle><CSharp/></SvgStyle>
+                    <SvgJS><JavaScript/></SvgJS>
+                    <SvgPy><Python/></SvgPy>
+                    <SvgReact><Reacti/></SvgReact>
+                    <SvgCSS><CSS/></SvgCSS>
+                    <SvgHTML><HTML/></SvgHTML>
+                    
+                </icons>
+            </MeContainer>
            
-            
-           
-        </IconContainer>
+        
     
     );
 }

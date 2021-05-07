@@ -1,19 +1,14 @@
 import React from 'react';
 import {MainImageBG, BGColor, MainText, BannerSections, LeftBanner,RightBanner,
 NameH1} from './animated.styles.jsx';
-import {SvgJS,SvgPy,SvgStyle,IconContainer,BrainStyle, WalkStyle} from '../icons/icons.styles.jsx';
+import {SvgAvatar,SvgPy,SvgStyle,IconContainer,BrainStyle, WalkStyle} from '../icons/icons.styles.jsx';
 import './animated.styles.scss';
-import computer from '../../imgs/computer.jpg';
- import {ReactComponent as CSSIcon} from '../../imgs/cssico.svg';
-import {ReactComponent as VSIcon} from '../../imgs/vsico.svg';
-import {ReactComponent as HTMLIcon} from '../../imgs/htmlico.svg';
-import {ReactComponent as JSIcon} from '../../imgs/jsico.svg';
-import {ReactComponent as PIcon} from '../../imgs/pythonico.svg';
-import {ReactComponent as CSharp} from '../../svgs/csharp.svg';
-import {ReactComponent as CSS} from '../../svgs/css.svg';
-import {ReactComponent as JavaScript} from '../../svgs/javascript.svg';
-import {ReactComponent as Brain} from '../../svgs/brain.svg';
+import {ReactComponent as HotAir} from '../../svgs/hotAirballoon.svg';
 import {ReactComponent as WalkOutside} from '../../svgs/walkoutside.svg';
+import {ReactComponent as FemaleAvatar} from '../../svgs/femaleav.svg';
+
+import {ReactComponent as DesignerLife} from '../../svgs/designerlife.svg';
+import {ReactComponent as WorkingLate} from '../../svgs/workinglate.svg';
 import jsico from '../../imgs/jsico.svg';
 
 import styled from 'styled-components';
@@ -27,9 +22,10 @@ const Animated =()=>{
         <BGColor>
            
             <div>
-               <NameH1>Bronagh Colton</NameH1>
+               {/* <NameH1>Bronagh Colton</NameH1> */}
+               <SvgAvatar><FemaleAvatar/></SvgAvatar>
                <MainText>
-                   I am a Software and Web Developer
+                   I am a Software, Web Developer and Game Designer
                </MainText>
                
                 {/* <BrainStyle><Brain/></BrainStyle> */}

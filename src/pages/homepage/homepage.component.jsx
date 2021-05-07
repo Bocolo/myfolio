@@ -17,14 +17,16 @@ const HomePage = () => {
             <Animated />
            <Me/>
             {display?(<Game/>):(<></>)}
-            
+            <Languages/> 
+            <br/>
+            <br/>
             {/* <Banner/> */}
             {/* <Personal/> */}
             
 
             <Projects/> 
             <br/><br/><br/><br/>
-            <Languages/> 
+            
         </div>  
     );
 }

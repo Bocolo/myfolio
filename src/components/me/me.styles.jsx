@@ -7,4 +7,10 @@ padding: 50px;
 text-align:center; 
 background: ${({ theme }) => theme.headFootColor};
 color:${({ theme }) => theme.headFootTextColor};
+icons {
+    display:flex;
+    display:flex-wrap;
+   justify-content: center;
+    
+}
 `;
