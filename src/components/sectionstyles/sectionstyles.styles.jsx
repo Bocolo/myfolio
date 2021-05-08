@@ -125,10 +125,11 @@ text-align:${props => props.textAlign ||'center'};
 font-size : ${props => props.fontSize || '30px'};
 font-weight: ${props=> props.fontWeight};
 line-height: ${props=> props.lineHeight };
+color: ${props=> props.color};
 @media (max-width:850px){
     font-size:${props => props.smFontSize || '32px'};
     line-height:1;
-    padding-bottom:15px;
+    padding-bottom:${props=> props.smPadBot || '15px'};
     padding-top:0px;
 }
 `;

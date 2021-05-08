@@ -3,35 +3,22 @@ import RPGscreen from '../../imgs/rpg.png';
 import survivalScreen from '../../imgs/survivalscreenshot.png';
 import survivalPlay from '../../imgs/playscreensurv.png';
 import computer from '../../imgs/computer.jpg';
+import crnwomen from '../../imgs/crnwomen.png';
+import facerecog from '../../imgs/facecaptureclosest.png';
 import './secondaryproject.styles.scss';
-import {MainContainer} from '../sectionstyles/sectionstyles.styles';
-import {FlipCard,FlipCardBack,FlipCardFront,FlipCardInner, FlipCardContainer} from './project.styles';
+import {MainContainer, TitleContainer} from '../sectionstyles/sectionstyles.styles';
+import {FlipCard,FlipCardBack,FlipCardFront,FlipCardInner, FlipCardContainer, FlipCardFrontTwo} from './project.styles';
 const SecondaryProject =()=>{
 
     return(
       <MainContainer width='1500'>
-          
+        
+          <TitleContainer paddingBottom ='40px' fontSize="4em" smFontSize="3em" smPadBot="30px">Projects</TitleContainer>
             <FlipCardContainer>
+                
+             
                 <FlipCard>
-                    <FlipCardFront img={survivalPlay}><h1>SURVIVAL</h1></FlipCardFront>
-                    <FlipCardBack >
-                        <FlipCardInner>
-                        <h2>SURVIVAL</h2>
-                        <p>A simple survival game.
-                            Shoot up as many enemies as you can,
-                            kill enough and activate golden coins,
-                            giving you a chance to take your revenge,
-                            Pac-man style.
-                            <br/> <br/>
-                            Gain health by devouring your deactivated enemies.
-                            But be warned, you only have so much time
-                            before they come back with a vengence.
-                            </p>
-                        </FlipCardInner>
-                    </FlipCardBack>
-                </FlipCard>
-                <FlipCard>
-                    <FlipCardFront img={computer}><h1>E-COMM APP</h1></FlipCardFront>
+                    <FlipCardFront img={crnwomen}></FlipCardFront>
                     <FlipCardBack >
                         <FlipCardInner>
                         <h2>Crown Clothing</h2>
@@ -45,24 +32,34 @@ const SecondaryProject =()=>{
                     </FlipCardBack>
                 </FlipCard>
                 <FlipCard>
-                    <FlipCardFront img={computer}><h1>ASTEROIDS</h1></FlipCardFront>
+                    <FlipCardFrontTwo  img={computer}><h1>ASTEROIDS</h1></FlipCardFrontTwo>
                     <FlipCardBack >
                         <FlipCardInner>
-                        <h2>Save the Galaxy</h2>
+                        
+                        <TitleContainer color='#87bf86'>Save the Galaxy</TitleContainer>
                         <p>Dodge and Blast your way through an asteroid field.
-                            Be careful though, some asteroids get smalled as expected,
+                            Be careful though, some asteroids get smaller as expected,
                             but some will grow the weaker they become.
                             <br/><br/>
                             Grab power ups on your way but avoid the Luminous
                             green space acid at all costs. It will clog your pistols
                             and disable your firing mechanisms
-          
+                            <br/><br/> 
+                            On your mobile right now? Check out this site on your desktop 
+                            for a chance to play.
+                            <br/><br/>
+                            <div>
+                                <a href='#'  ariaHidden='true'>
+                                <svg className=""  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fillRule="evenodd" clipRule="evenodd" strokeLinejoin="round" strokeMiterlimit="1.414"><path d="M8 0C3.58 0 0 3.582 0 8c0 3.535 2.292 6.533 5.47 7.59.4.075.547-.172.547-.385 0-.19-.007-.693-.01-1.36-2.226.483-2.695-1.073-2.695-1.073-.364-.924-.89-1.17-.89-1.17-.725-.496.056-.486.056-.486.803.056 1.225.824 1.225.824.714 1.223 1.873.87 2.33.665.072-.517.278-.87.507-1.07-1.777-.2-3.644-.888-3.644-3.953 0-.873.31-1.587.823-2.147-.083-.202-.358-1.015.077-2.117 0 0 .672-.215 2.2.82.638-.178 1.323-.266 2.003-.27.68.004 1.364.092 2.003.27 1.527-1.035 2.198-.82 2.198-.82.437 1.102.163 1.915.08 2.117.513.56.823 1.274.823 2.147 0 3.073-1.87 3.75-3.653 3.947.287.246.543.735.543 1.48 0 1.07-.01 1.933-.01 2.195 0 .215.144.463.55.385C13.71 14.53 16 11.534 16 8c0-4.418-3.582-8-8-8"/></svg>
+
+                                </a>
+                            </div>
                         </p>
                         </FlipCardInner>
                     </FlipCardBack>
                 </FlipCard>
                 <FlipCard>
-                    <FlipCardFront img={computer}><h1>FACE RECOG APP</h1></FlipCardFront>
+                    <FlipCardFront img={facerecog}></FlipCardFront>
                     <FlipCardBack >
                         <FlipCardInner>
                         <h2>Find Faces in Images</h2>
@@ -86,6 +83,24 @@ const SecondaryProject =()=>{
                             and Sagas to make everything run smooth.
                         Built as part of ZTM's React Course. Credit to andrei and Yihua.
                         </p>
+                        </FlipCardInner>
+                    </FlipCardBack>
+                </FlipCard>
+                <FlipCard>
+                    <FlipCardFront img={survivalScreen}></FlipCardFront>
+                    <FlipCardBack >
+                        <FlipCardInner>
+                        <h2>SURVIVAL</h2>
+                        <p>A simple survival game.
+                            Shoot up as many enemies as you can,
+                            kill enough and activate golden coins,
+                            giving you a chance to take your revenge,
+                            Pac-man style.
+                            <br/> <br/>
+                            Gain health by devouring your deactivated enemies.
+                            But be warned, you only have so much time
+                            before they come back with a vengence.
+                            </p>
                         </FlipCardInner>
                     </FlipCardBack>
                 </FlipCard>

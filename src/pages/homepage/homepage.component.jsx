@@ -25,7 +25,7 @@ const HomePage = () => {
             {/* <Personal/> */}
             
             <SecondaryProject/>
-            <Projects/> 
+            {/* <Projects/>  */}
             <br/><br/><br/><br/>
             
         </div>  

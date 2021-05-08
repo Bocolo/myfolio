@@ -41,9 +41,9 @@ const App=() =>{
        <Header/>
      
        {/* <Toggler theme={theme} toggleTheme={themeToggler}/> */}
-       {/* <Toggler theme={theme} toggleTheme={themePink} text={'Switch to Pink'}/>
+       <Toggler theme={theme} toggleTheme={themePink} text={'Switch to Pink'}/>
        <Toggler theme={theme} toggleTheme={themeDark} text={'Switch to Dark'}/>
-       <Toggler theme={theme} toggleTheme={themeWhite} text={'Switch to White'}/> */}
+       <Toggler theme={theme} toggleTheme={themeWhite} text={'Switch to White'}/>
        {/* <button onClick={themeToggler}>This is a button</button> */}
        <Switch>
          <Route exact path='/' component={HomePage} />

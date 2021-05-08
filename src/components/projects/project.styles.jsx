@@ -105,6 +105,11 @@ backface-visibility: hidden;
 transform: rotateX(0deg);
 transition: .5s;
 border-radius:50%;
+z-index: 10;
+`;
+export const FlipCardFrontTwo = styled(FlipCardFront)`
+
+border-radius : ${props => props.borderRad};
 `;
 
 export const FlipCardBack = styled.div`
@@ -121,13 +126,23 @@ transform: rotateX(180deg);
 transition: .5s;
 color: #ffffff;
 text-align: center;
+
+      z-index: -1;
 `;
 export const FlipCardInner = styled.div`
 height: 100%;
 display: grid;
 padding: 1.5em;
-padding-top:5em;
+padding-top:.5em;
 transform: translateZ(80px) scale(0.94);
+svg{
+    width:40px;
+    height:40px;
+    fill: white;
+    &: hover{ transform: scale(1.2);
+    fill:#87bf86;}
+}
+
 `;
 export const FlipCardContainer = styled.div`
 display:flex;
@@ -146,9 +161,13 @@ transition: .5s;
 
 &:hover {
     ${FlipCardFront}{
-    transform: rotateX(-180deg)}
+    transform: rotateX(-180deg);
+    z-index: 10;}
 ${FlipCardBack}{
-    transform: rotateX(0deg)
+    transform: rotateX(0deg);
+    z-index: -1;
 }}
 
+`;
+export const ProjectTitle =styled.h1`
 `;
