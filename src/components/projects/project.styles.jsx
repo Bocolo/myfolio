@@ -1,4 +1,5 @@
 import styled,{css} from 'styled-components';
+import tempImage from '../../imgs/computer.jpg';
 
 export const Overflow=styled.div`
 overflow:auto;
@@ -83,4 +84,71 @@ padding-right:0px;
 background:${({ theme }) => theme.mainBackground};
 
 }
+`;
+
+
+export const FlipCardFront = styled.div`
+
+height: 100%;
+width: 100%;
+text-align:center;
+padding: 4em;
+color:white;
+background-image: url(${props=> props.img});
+background-position: 50% 50%;
+background-size: cover;
+position: absolute;
+top: 0;
+left: 0;
+background-color: #000000;
+backface-visibility: hidden;
+transform: rotateX(0deg);
+transition: .5s;
+border-radius:50%;
+`;
+
+export const FlipCardBack = styled.div`
+height: 100%;
+width: 100%;
+border-radius:35px;
+position: absolute;
+top: 0;
+left: 0;
+background-color: #313131;
+background-position:center;
+backface-visibility: hidden;
+transform: rotateX(180deg);
+transition: .5s;
+color: #ffffff;
+text-align: center;
+`;
+export const FlipCardInner = styled.div`
+height: 100%;
+display: grid;
+padding: 1.5em;
+padding-top:5em;
+transform: translateZ(80px) scale(0.94);
+`;
+export const FlipCardContainer = styled.div`
+display:flex;
+flex-flow: row wrap;
+justify-content: center;
+grid-gap: 10px;
+
+`;
+export const FlipCard = styled.div`
+position: relative;
+height: 400px;
+width: 400px;
+transform-style: preserve-3d;
+perspective: 600px;
+transition: .5s;
+
+&:hover {
+    ${FlipCardFront}{
+    transform: rotateX(-180deg)}
+${FlipCardBack}{
+    transform: rotateX(0deg)
+}}
+
 `;

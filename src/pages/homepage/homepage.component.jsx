@@ -7,6 +7,7 @@ import Animated from '../../components/animated/animated.component';
 import Languages from '../../components/skills/languages.component';
 import computer from '../../imgs/computer.jpg';
 import Me from '../../components/me/me.component';
+import SecondaryProject from '../../components/projects/secondaryproject.component';
 import './homepage.styles.scss';
 const HomePage = () => {
     const [display, setDisplay] = useState(true);
@@ -23,7 +24,7 @@ const HomePage = () => {
             {/* <Banner/> */}
             {/* <Personal/> */}
             
-
+            <SecondaryProject/>
             <Projects/> 
             <br/><br/><br/><br/>
             

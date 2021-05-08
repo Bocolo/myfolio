@@ -6,7 +6,7 @@ import {MainContainer} from '../sectionstyles/sectionstyles.styles';
 const Me =()=>{
 
 return(
-    <MeContainer>
+    <MeContainer borderRadius ='0px 150px 0px 0px'>
         <MainText>Hi, I'm Bronagh. </MainText>
         <MainText>Welcome to my slice of the internet</MainText>
         <SmallContainer >
