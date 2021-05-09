@@ -28,18 +28,18 @@ margin-bottom:40px;
 `;
 export const SvgStyle= styled.div`
 display:flex;
-
+margin:10px;
 svg{
 height:50px; 
 width:50px;
-margin:10px;
-fill:#5c2b95;
+
+fill:#e8767c;
 }
 
 &:hover svg{
   height:50px; 
 width:50px;
-margin:10px;
+
     fill:#b561cf;
     transform:scale(1.1);
 }
@@ -145,6 +145,39 @@ fill:black;
 @media (max-width:600px) {
   height:90%; 
   width:90%;
+}}
+
+
+
+`;
+export const WalkUpStyle= styled.div`
+display:flex;
+justify-content:center;
+width:100%;
+
+
+svg{
+ 
+height:30%; 
+width:30%;
+
+
+fill:black;
+transform: rotateX(-180deg) rotateY(-180deg);
+
+
+
+@media (max-width:1200px){
+  height:40%; 
+  width:40%;
+}
+@media (max-width:800px) {
+  height:50%; 
+  width:50%;
+}
+@media (max-width:600px) {
+  height:60%; 
+  width:60%;
 }}
 
 

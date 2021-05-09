@@ -13,7 +13,7 @@ import jsico from '../../imgs/jsico.svg';
 
 import styled from 'styled-components';
 
-
+import Toggler from '../toggler/toggler';
 const Animated =()=>{
 
     return(
@@ -22,15 +22,14 @@ const Animated =()=>{
         <BGColor>
            
             <div>
-               {/* <NameH1>Bronagh Colton</NameH1> */}
+         
                <SvgAvatar><FemaleAvatar/></SvgAvatar>
                <MainText>
                    I am a Software, Web Developer and Game Designer
                </MainText>
-               
-                {/* <BrainStyle><Brain/></BrainStyle> */}
+         
                 <WalkStyle><WalkOutside/></WalkStyle>
-                {/* <LeftBrain><Brain/></LeftBrain> */}
+             
             </div>
         </BGColor>
         

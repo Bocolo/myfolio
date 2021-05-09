@@ -7,6 +7,7 @@ import Animated from '../../components/animated/animated.component';
 import Languages from '../../components/skills/languages.component';
 import computer from '../../imgs/computer.jpg';
 import Me from '../../components/me/me.component';
+import MeAgain from '../../components/me/meagain.component';
 import SecondaryProject from '../../components/projects/secondaryproject.component';
 import './homepage.styles.scss';
 const HomePage = () => {
@@ -17,17 +18,14 @@ const HomePage = () => {
         <div>
             <Animated />
            <Me/>
-            {display?(<Game/>):(<></>)}
-            <Languages/> 
-            <br/>
-            <br/>
-            {/* <Banner/> */}
-            {/* <Personal/> */}
-            
+           
+           
             <SecondaryProject/>
-            {/* <Projects/>  */}
-            <br/><br/><br/><br/>
+            <MeAgain/>
+            {display?(<Game/>):(<></>)}
             
+            
+            <Languages/> 
         </div>  
     );
 }

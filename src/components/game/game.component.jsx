@@ -26,7 +26,7 @@ const Game =()=>{
                </MainContainer>
               
            </Section>
-           <br/><br/><br/><br/>
+         
            
        </div>
     )

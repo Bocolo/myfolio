@@ -14,6 +14,7 @@ export const MainContainer =styled.div`
 width: ${props => props.width || '1200'}px;
 height:${props=>props.height ||'auto'};
 margin:0 auto;
+
 background: ${({ theme }) => theme.mainContainerBackground};
 ${props=> props.projects && css`
 width:1400px;
@@ -109,7 +110,7 @@ text-align:${props => props.textAlign ||'center'};
 font-size : ${props => props.fontSize || '20px'};
 font-weight: ${props=> props.fontWeight};
 line-height: ${props=> props.lineHeight };
-
+color:${({ theme }) => theme.textColor};
 @media (max-width:850px){
     font-size:${props => props.smFontSize || '20px'};
     line-height:1;

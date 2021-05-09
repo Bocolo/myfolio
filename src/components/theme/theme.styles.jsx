@@ -23,7 +23,7 @@ export const whiteTheme={
     headFootColor:'black',
     headFootTextColor: 'white',
     mainBackground:'white' , 
-    mainContainerBackground:'white',
+    mainContainerBackground:'#eaeaea',
     boxBorderColor:'white',
     textColor:'black',
     hyperColor: 'red',

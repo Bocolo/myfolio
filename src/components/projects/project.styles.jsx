@@ -148,13 +148,14 @@ export const FlipCardContainer = styled.div`
 display:flex;
 flex-flow: row wrap;
 justify-content: center;
-grid-gap: 10px;
+grid-gap: ${props=>props.gridGap || '10px'};
+margin-bottom:  ${props=>props.marginBottom ||  '3em'};
 
 `;
 export const FlipCard = styled.div`
 position: relative;
-height: 400px;
-width: 400px;
+height: 370px;
+width: 370px;
 transform-style: preserve-3d;
 perspective: 600px;
 transition: .5s;
@@ -171,3 +172,13 @@ ${FlipCardBack}{
 `;
 export const ProjectTitle =styled.h1`
 `;
+
+export const FullContainer = styled.div`
+
+height:${props=>props.height ||'auto'};
+margin:0 auto;
+background: ${({ theme }) => theme.mainContainerBackground};
+padding-bottom:20px;
+padding-top:20px;
+border-top: 1px solid #c1c1c1;
+border-bottom: 1px solid #c1c1c1;`;

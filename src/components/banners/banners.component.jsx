@@ -10,8 +10,9 @@ import {Section,
     from '../../components/sectionstyles/sectionstyles.styles';
 import {ProfileImg
 } from './banners.styles';
-import bluepaint from '../../imgs/bluepaint.jpg';
 import profile from '../../imgs/profile.jpg';
+import bluepaint from '../../imgs/bluepaint.jpg';
+
 const Banner = () => {
 
     return(

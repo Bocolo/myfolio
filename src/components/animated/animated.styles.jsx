@@ -63,16 +63,19 @@ font-size: 3rem;
 export const MainText = styled.div`
 text-align:center;
 line-height:1.2;
-font-size:2rem;
+font-weight:bold;
+font-size:${props=> props.fontSize ||'2rem'};
 
 
 `;
 export const SmallText = styled.div`
 
-padding-top:30px;
-text-align:center;
-line-height:1.2;
-font-size:1.1rem;
+padding-top:${props=> props.paddingTop ||'30px'};
+padding-bottom:${props=> props.paddingBottom ||'0px'};
+text-align:${props=> props.textAlign || 'center'};
+line-height:${props => props.lineHeight || '1.2'} ;
+font-size:${props => props.fontSize ||'1.1rem'};
+text-transform:${props=> props.textTransform};
 
 
 `;
@@ -80,6 +83,7 @@ export const SmallContainer =styled.div`
 width: ${props => props.width || '800'}px;
 height:${props=>props.height ||'auto'};
 margin:0 auto;
+
 
 @media (max-width:1400px){
     width:80%;
