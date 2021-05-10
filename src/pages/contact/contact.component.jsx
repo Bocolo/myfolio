@@ -5,10 +5,7 @@ import {TempContainer} from './contact.styles';
 
 const ContactPage = () => (
     <div>
-        <TempContainer>
-            CONTACT
-
-        </TempContainer>
+        Get in touch
         </div>
 )
 

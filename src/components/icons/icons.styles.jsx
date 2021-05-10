@@ -29,6 +29,7 @@ margin-bottom:40px;
 export const SvgStyle= styled.div`
 display:flex;
 margin:10px;
+justify-content:center;
 svg{
 height:50px; 
 width:50px;
@@ -132,7 +133,10 @@ width:70%;
 margin:10px;
 margin-bottom:0;
 fill:black;
-
+@media (max-width:1400px){
+  height:50%; 
+  width:50%;
+}
 
 @media (max-width:1200px){
   height:50%; 

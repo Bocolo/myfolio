@@ -9,7 +9,7 @@ const Footer = () => (
     <FooterContainer>
         <FooterBot>
             <FooterText> 
-                We need to add  footer here
+                Get in touch at bocolodev@gmail.com
                 </FooterText>
                 <FooterIcon>
                     <a className="link white-60 bg-transparent hover-white inline-flex items-center ma2 tc br2 pa2" href="https://github.com/Bocolo" title="GitHub">

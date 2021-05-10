@@ -6,11 +6,13 @@ import Header from './components/header/header.component';
 import Footer from './components/footer/footer.component';
 import HomePage from './pages/homepage/homepage.component';
 import ContactPage from './pages/contact/contact.component';
+import AsteroidPage from './pages/code/asteroidcodepage.component';
 import {ThemeProvider} from 'styled-components';
 import {GlobalStyles} from './components/theme/globalstyle.styles';
 import {pinkTheme,darkTheme, whiteTheme} from './components/theme/theme.styles';
 import {useDarkMode} from './components/theme/usedarkmode';
 import Toggler from './components/toggler/toggler';
+
 
 
 
@@ -48,6 +50,7 @@ const App=() =>{
        <Switch>
          <Route exact path='/' component={HomePage} />
          <Route path='/contact' component={ContactPage} />
+         <Route path='/asteroidcode' component={AsteroidPage} />
        </Switch>
        <Footer/>
      </div>

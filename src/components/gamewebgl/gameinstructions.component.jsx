@@ -20,6 +20,7 @@ const GameInstructions =()=>{
                 {/* <InstructionsContainer>
                     fdfd
                 </InstructionsContainer> */}
+                <br/><br/><br/>
                 <BoxContainer height='auto' width='80%'  border='4px solid #b5838d' boxShadow='0px 0px 30px 10px #b5838d'>
                 <TextContainer fontSize='24px' lineHeight='1.5' >
                    How long can you survive the Asteroid field?

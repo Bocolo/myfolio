@@ -53,7 +53,7 @@ export const OptionsContainer = styled.div`
             padding: 10px 15px;
             cursor:pointer;
             color:${({ theme }) => theme.headFootTextColor};
-            font-weight: bold;
+            
 `;
 export const OptionLink = styled(Link)`
 ${OptionContainerStyles}`;

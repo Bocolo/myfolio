@@ -156,4 +156,21 @@ export const BoxContainer=styled.div`
 
   position: ${props=> props.position};
 `;
+
+export const DevContainer=styled.div`
+margin: 0 auto;
+max-width: 1500px;
+padding-top:30px;
+
+padding-bottom:30px;
+`;
+export const DevColumn=styled.div`
+flex-grow:1;
+border-right: ${props => props.borderRight || '1px solid white'};
+padding: 65px;
+@media(max-width: 714px){
+    border-bottom: ${props => props.borderRight || '1px solid white'}; 
+    border-right: 0px;
+}
+`;
 //rgb(201, 34, 159)
