@@ -25,6 +25,7 @@ width:130px;height:130px;}`
 const Developer =()=>{
     return(
        <Section>
+           <br/>
            <DevContainer>
            
                 <BoxContainer width='80%' height='auto'>

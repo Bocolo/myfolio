@@ -24,7 +24,7 @@ const Animated =()=>{
             <div>
          
                <SvgAvatar><FemaleAvatar/></SvgAvatar>
-               <MainText>
+               <MainText fontSizeM='1.5em' fontSizeSm='1.1em'>
                    I am a Software, Web Developer and Game Designer
                </MainText>
          

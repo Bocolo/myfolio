@@ -43,9 +43,7 @@ export const OptionsContainer = styled.div`
         justify-content: center;
         
         width: 100%;
-@media screen and (max-width: 800px) {
-    width: 80%;
-    }
+
 `;
 //above justify-content: change to flex-end && width: 50%
  const OptionContainerStyles = css`

@@ -8,6 +8,7 @@ import HomePage from './pages/homepage/homepage.component';
 import ContactPage from './pages/contact/contact.component';
 import AsteroidPage from './pages/code/asteroidcodepage.component';
 import {ThemeProvider} from 'styled-components';
+import {ThemeButtonContainer, ThemeContainer} from './components/sectionstyles/sectionstyles.styles';
 import {GlobalStyles} from './components/theme/globalstyle.styles';
 import {pinkTheme,darkTheme, whiteTheme} from './components/theme/theme.styles';
 import {useDarkMode} from './components/theme/usedarkmode';
@@ -43,9 +44,15 @@ const App=() =>{
        <Header/>
      
        {/* <Toggler theme={theme} toggleTheme={themeToggler}/> */}
-       <Toggler theme={theme} toggleTheme={themePink} text={'Switch to Pink'}/>
-       <Toggler theme={theme} toggleTheme={themeDark} text={'Switch to Dark'}/>
-       <Toggler theme={theme} toggleTheme={themeWhite} text={'Switch to White'}/>
+       <ThemeContainer>
+         
+         <ThemeButtonContainer>
+           
+           <Toggler theme={theme} toggleTheme={themePink} text={'Switch to Pink'} background={'#ffcdb2'}/>
+           <Toggler theme={theme} toggleTheme={themeDark} text={'Switch to Dark'} background={'#575F75'}/>
+           <Toggler theme={theme} toggleTheme={themeWhite} text={'Switch to White'} background={'#eaeaea'}/>
+         </ThemeButtonContainer>
+       </ThemeContainer>
        {/* <button onClick={themeToggler}>This is a button</button> */}
        <Switch>
          <Route exact path='/' component={HomePage} />

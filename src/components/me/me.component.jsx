@@ -6,9 +6,9 @@ import {MainText, SmallText,SmallContainer} from '../animated/animated.styles';
 const Me =()=>{
 
 return(
-    <MeContainer borderRadius ='0px 150px 0px 0px'>
-        <MainText fontSize='1.8em'>Hey there, I'm Brónagh. </MainText>
-        <MainText fontSize='1.6em'>Welcome to my slice of the internet</MainText>
+    <MeContainer borderRadius ='0px 150px 0px 0px'  borderRadiusSm ='0px 100px 0px 0px' borderRadiusXSm ='0px 60px 0px 0px'>
+        <MainText fontSize='1.8em' fontSizeSm='1.2em'>Hey there, I'm Brónagh. </MainText>
+        <MainText fontSize='1.6em'fontSizeSm='1.2em'>Welcome to my slice of the internet</MainText>
         <SmallContainer >
             <SmallText>
                 I want to make the world more beautiful, more intuitive and 

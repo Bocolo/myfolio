@@ -81,9 +81,12 @@ grid-template-columns:1fr 1fr 1fr 1fr ;
     justify-content:center;
     padding-left:0px;
 padding-right:0px;
-background:${({ theme }) => theme.mainBackground};
+
 
 }
+`;
+export const ATag= styled.a`
+color: ${props => props.color};
 `;
 
 
@@ -140,8 +143,32 @@ svg{
     height:40px;
     fill: white;
     &: hover{ transform: scale(1.2);
-    fill:#87bf86;}
+    fill:#FDE74C;}
 }
+
+`;
+export const CollapseMeButton=styled.button`
+border:none;
+padding: 7px;
+padding-left:10px;
+padding-right:10px;
+background: ${({theme})=>theme.boxBorderColor};
+border-radius: 50px;
+opacity:.8;
+&:hover{transform: scale(1.1);
+   
+    opacity:1;
+}
+
+}
+`;
+export const CollapseButtonContainer=styled.div`
+display:flex;
+justify-content:center;
+align-items:center;
+padding-bottom:20px;
+`;
+export const ProjectContainerCollapsable=styled.div`
 
 `;
 export const FlipCardContainer = styled.div`
@@ -150,6 +177,7 @@ flex-flow: row wrap;
 justify-content: center;
 grid-gap: ${props=>props.gridGap || '10px'};
 margin-bottom:  ${props=>props.marginBottom ||  '3em'};
+
 
 `;
 export const FlipCard = styled.div`

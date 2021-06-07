@@ -7,7 +7,7 @@ const MeAgain =()=>{
 
 return(
     <div>
-    <MeContainer borderRadius ='0px 0px  0px  150px'>
+    <MeContainer borderRadius ='0px 0px  0px  150px' borderRadiusSm ='0px  0px 0px 100px' borderRadiusXSm ='0px  0px 0px 60px'>
         <MainText fontSize='1.8em'>Why do I do this? </MainText>
         <SmallContainer >
             <SmallText>

@@ -11,7 +11,7 @@ import {SvgJS,SvgPy,SvgStyle,
 import {MeContainer} from '../../components/me/me.styles';
 import {SkillsIcons} from '../../component/personal/personal.styles';
 import {FlipCardContainer} from '../../components/projects/project.styles';
-import {SmallText} from '../animated/animated.styles';
+import {SmallText, MainText} from '../animated/animated.styles';
 
 
 
@@ -22,10 +22,11 @@ const Languages =() => {
     return(
         
             <MeContainer>
-                <SmallText paddingTop='0px' paddingBottom='20px' fontSize='1.5em' textTransform='uppercase'>
+                <SmallText fontWeight='bold' paddingTop='0px' paddingBottom='20px' fontSize='1.6em' >
+                    {/* textTransform='uppercase' */}
                     Skills 
                     </SmallText>
-                
+                    {/* <MainText fontSize='1.6em'>Skills</MainText> */}
                         <FlipCardContainer marginBottom='1em'>
                             <SvgJS><JavaScript/></SvgJS>
                             <SvgStyle><CSharp/></SvgStyle>

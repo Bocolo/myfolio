@@ -15,5 +15,11 @@ span {
    justify-content: center;
     
 }
+@media (max-width:606px) {
+    border-radius: ${props=> props.borderRadiusSm || '0px'};
+}
+@media (max-width:335px) {
+    border-radius: ${props=> props.borderRadiusXSm || '0px'};
+}
 `;
 

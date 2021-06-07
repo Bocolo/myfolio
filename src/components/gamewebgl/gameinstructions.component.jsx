@@ -2,7 +2,7 @@ import React from 'react';
 import {GameContainer,InstructionsContainer} from '../game/game.styles';
 import {BoxContainer, TitleContainer,TextContainer,SkillsContainer} from '../sectionstyles/sectionstyles.styles';
 
-const introText =" Live out your inner Han Solo. \nBlast your way through as many asteroids as you can, be sure to catch any power ups that hurdle your way. \n!Warning! Watch out for *{insert name here}*, contact will damage firing mechanisms temporarily."; 
+const introText =" Live out your inner Han Solo. \nBlast your way through as many asteroids as you can, be sure to catch any power ups that hurdle your way. \n!Warning! Watch out for green space acid, contact will damage firing mechanisms temporarily."; 
 const instructionText="Fire: Press 'Space'\nMove: Press '<' or '>' || 'a' or 'd'";
 
 const Descriptions=({text})=>{
@@ -20,12 +20,12 @@ const GameInstructions =()=>{
                 {/* <InstructionsContainer>
                     fdfd
                 </InstructionsContainer> */}
-                <br/><br/><br/>
-                <BoxContainer height='auto' width='80%'  border='4px solid #b5838d' boxShadow='0px 0px 30px 10px #b5838d'>
+                <br/>
+                <BoxContainer height='auto' width='95%'  border='4px solid #b5838d' boxShadow='0px 0px 30px 10px #b5838d' paddingTop='10px' paddingBottom='10px' padding='10px'>
                 <TextContainer fontSize='24px' lineHeight='1.5' >
                    How long can you survive the Asteroid field?
                 </TextContainer>
-                <TextContainer fontSize='21px' lineHeight='1.1' textAlign='left' >
+                <TextContainer fontSize='21px' lineHeight='1.1' textAlign='left' smFontSize='18px' >
                     <Descriptions text={introText}/>
                     <br/>
                     <Descriptions text={instructionText}/>

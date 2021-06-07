@@ -5,8 +5,8 @@ import {GameContainer, GameColumn} from '../game/game.styles';
 
 const GameWebGL =()=>{
     const unityContent =new UnityContent(
-        '../../../Build/ShooterWebGLBuild.json',
-        '../../../Build/UnityLoader.js'
+        '../../../Build2/ShooterWebGLBuild2.json',
+        '../../../Build2/UnityLoader.js'
     )
 
     return(

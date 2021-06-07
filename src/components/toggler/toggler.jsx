@@ -11,12 +11,29 @@ const Button = styled.button`
   padding: 0.6rem;
   }
 `;
-const Toggle = ({theme,  toggleTheme, text }) => {
+const Button2 = styled.button`
+  background:${props=>props.background};
+  border: 1px solid ${({ theme }) => theme.background};
+  
+  border-radius: 50px;
+  cursor: pointer;
+ 
+  padding: 0.6rem;
+  width: 10px;
+  }
+`;
+const Toggle = ({theme,  toggleTheme, text , background}) => {
     return (
-        <Button onClick={toggleTheme} >
+        // <div>
+        //   <Button onClick={toggleTheme} >
           
-          {text}
-        </Button>
+        //     {text}
+        //   </Button>
+             <Button2 background={background} onClick={toggleTheme} >
+          
+            
+           </Button2>
+       // </div>
     );
 };
 Toggle.propTypes = {

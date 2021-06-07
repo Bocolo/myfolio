@@ -24,7 +24,14 @@ width:100px;
 margin:10px;
 margin-bottom:40px;
 }
-
+@media (max-width:600px) {
+  svg{
+    height:80px; 
+    width:80px;
+    margin:10px;
+    margin-bottom:40px;
+  }
+}
 `;
 export const SvgStyle= styled.div`
 display:flex;
@@ -149,7 +156,13 @@ fill:black;
 @media (max-width:600px) {
   height:90%; 
   width:90%;
-}}
+ }
+@media (max-width:400px) {
+  height:90%; 
+  width:90%;
+
+}
+}
 
 
 

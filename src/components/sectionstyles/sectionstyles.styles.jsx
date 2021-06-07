@@ -1,6 +1,17 @@
 import styled,{css} from 'styled-components';
+//display:flex;
+//padding-top: 20px;
 
+//justify-content:center;
+//align-items:center;
+export const ThemeButtonContainer=styled.div`
+display:grid;
+grid-template-columns: 1fr 1fr 1fr;
+grid-gap:10px;
 
+justify-items:center;
+align-items: center;
+`;
 export const Section=styled.section`
 background:{({ theme }) => theme.mainBackground};
 overflow:auto;
@@ -131,7 +142,7 @@ color: ${props=> props.color};
     font-size:${props => props.smFontSize || '32px'};
     line-height:1;
     padding-bottom:${props=> props.smPadBot || '15px'};
-    padding-top:0px;
+    padding-top:15px;
 }
 `;
 //${({ theme }) => theme.mainBackground}
@@ -147,6 +158,8 @@ export const BoxContainer=styled.div`
   height: ${props => props.height || '200px'};
   margin:0 auto;
   padding-top:${props=>props.paddingTop};
+  padding-bottom:${props=>props.paddingBottom};
+   padding:${props=>props.padding};
   display:block;
   border-radius:25px;
 
@@ -172,5 +185,12 @@ padding: 65px;
     border-bottom: ${props => props.borderRight || '1px solid white'}; 
     border-right: 0px;
 }
+`;
+export const ThemeContainer=styled.div`
+margin: 0 auto;
+max-width: 1500px;
+padding-top:30px;
+
+padding-bottom:30px;
 `;
 //rgb(201, 34, 159)

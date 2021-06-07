@@ -41,6 +41,7 @@ width:100%;
 display: flex;
 flex-wrap: wrap;
 padding:100px;
+padding-top:50px;
 padding-bottom:0;
 justify-content:center;
 @media (max-width:1700px){
@@ -65,7 +66,14 @@ text-align:center;
 line-height:1.2;
 font-weight:bold;
 font-size:${props=> props.fontSize ||'2rem'};
-
+@media (max-width:600px) {
+  font-size:${props=> props.fontSizeM };}
+  
+  }
+  @media (max-width:400px) {
+    font-size:${props=> props.fontSizeSm || '1.2em'};}
+    
+    }
 
 `;
 export const SmallText = styled.div`
@@ -76,7 +84,9 @@ text-align:${props=> props.textAlign || 'center'};
 line-height:${props => props.lineHeight || '1.2'} ;
 font-size:${props => props.fontSize ||'1.1rem'};
 text-transform:${props=> props.textTransform};
-
+font-weight:${props=> props.fontWeight};
+@media (max-width:400px) {
+  font-size:${props=> props.fontSizeSm || '1em'};}
 
 `;
 export const SmallContainer =styled.div`

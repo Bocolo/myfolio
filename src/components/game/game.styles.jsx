@@ -11,7 +11,7 @@ position:relative;
   width:405px; 
 height:720px;
 }
-@media(max-width:850px){
+@media(max-width:1400px){
 width:360px;
 height:640px;
 }
