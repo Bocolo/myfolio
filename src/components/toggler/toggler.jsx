@@ -20,6 +20,9 @@ const Button2 = styled.button`
  
   padding: 0.6rem;
   width: 10px;
+  &: hover{
+    transform: scale(1.1);
+  }
   }
 `;
 const Toggle = ({theme,  toggleTheme, text , background}) => {

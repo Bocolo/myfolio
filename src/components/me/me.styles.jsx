@@ -4,7 +4,7 @@ export const SkillIcons = styled.div``;
 export const MeContainer = styled.div`
 height: auto;
 padding: 50px;
-
+margin:${props=> props.marginn || '0'}px;
 text-align:center; 
 background: ${({ theme }) => theme.headFootColor};
 color:${({ theme }) => theme.headFootTextColor};

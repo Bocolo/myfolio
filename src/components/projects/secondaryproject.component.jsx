@@ -15,17 +15,11 @@ const [hidden, setHidden] = useState(false)
     return(
       <FullContainer >
         
-          <TitleContainer paddingBottom ='20px' fontSize="3em" smFontSize="2em" smPadBot="30px" >
+          <TitleContainer paddingBottom ='20px' fontSize="3em" smFontSize="1.6em" smPadBot="30px" >
               Some Past Projects
             </TitleContainer>
 
-            <CollapseButtonContainer>
-                <CollapseMeButton onClick={() =>setHidden(!hidden)}>
-                    {hidden?('Show'):('Hide')}
-                   
-                    
-                    </CollapseMeButton>
-            </CollapseButtonContainer>
+      
             {/* <button onClick={() =>setHidden(!hidden)}>button</button> */}
             {hidden?(<div></div>):(
             <ProjectContainerCollapsable>
@@ -150,7 +144,16 @@ const [hidden, setHidden] = useState(false)
                     </FlipCard>
                 </FlipCardContainer>
             </ProjectContainerCollapsable>
-            )}
+            )
+            
+            }
+                  <CollapseButtonContainer>
+                <CollapseMeButton onClick={() =>setHidden(!hidden)}>
+                    {hidden?('Show'):('Hide')}
+                   
+                    
+                    </CollapseMeButton>
+            </CollapseButtonContainer>
       </FullContainer>
      
     )

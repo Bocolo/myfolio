@@ -19,9 +19,11 @@ const HomePage = () => {
             <SecondaryProject/>
             <MeAgain/>
             <Developer/>
+            <Languages/> 
+            <br/><br/>
             {display?(<Game/>):(<></>)}
           
-            <Languages/> 
+            
         </div>  
     );
 }

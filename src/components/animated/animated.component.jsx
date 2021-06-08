@@ -25,10 +25,13 @@ const Animated =()=>{
          
                <SvgAvatar><FemaleAvatar/></SvgAvatar>
                <MainText fontSizeM='1.5em' fontSizeSm='1.1em'>
-                   I am a Software, Web Developer and Game Designer
+                   {/* I am a Software, Web Developer and Game Designer */}
+                   I am the Developer you didn't know you needed
                </MainText>
-         
-                <WalkStyle><WalkOutside/></WalkStyle>
+                
+                <WalkStyle>
+              
+                    <WalkOutside/></WalkStyle>
              
             </div>
         </BGColor>

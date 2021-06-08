@@ -184,6 +184,7 @@ padding: 65px;
 @media(max-width: 714px){
     border-bottom: ${props => props.borderRight || '1px solid white'}; 
     border-right: 0px;
+    padding:40px;
 }
 `;
 export const ThemeContainer=styled.div`

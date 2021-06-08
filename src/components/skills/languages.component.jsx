@@ -21,7 +21,8 @@ const Languages =() => {
 
     return(
         
-            <MeContainer>
+            <MeContainer  > 
+                 {/* borderRadius ='0px 190px 0px 190px'  borderRadiusSm ='150px' borderRadiusXSm ='100px' */}
                 <SmallText fontWeight='bold' paddingTop='0px' paddingBottom='20px' fontSize='1.6em' >
                     {/* textTransform='uppercase' */}
                     Skills 
