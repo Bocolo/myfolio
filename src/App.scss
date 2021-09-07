@@ -1,0 +1,24 @@
+$text-color: #48bfe3;
+body {
+  font-family: 'Courier New','Open Sans Condensed', sans-serif;
+ 
+  color: black;
+  background-color: #ffb4a2;
+
+}
+@media screen and (max-width: 800px) {
+  body {
+    //  padding: 10px 10px;
+  }
+}
+.flextest{
+  display: flex;
+  flex-direction: column;
+}
+a{
+  text-decoration:none;
+color:rgb(255, 255, 255);
+}
+*{
+  box-sizing:border-box;
+}
