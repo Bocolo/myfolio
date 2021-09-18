@@ -9,8 +9,6 @@ import {ProjectItemContainer,
 
 const Tester =({item})=> {
 
-
-    //const {id, name, details, imageUrl} =item;
     const name = 'Project One';
     const details = 'These are the Project details. A React built website incorporating Stripe Payment and redux sagas ';
     const imageUrl ='http://mrmrs.github.io/photos/justice.jpg';

@@ -1,8 +1,7 @@
 import React from 'react';
 import {Section, BoxContainer,
 DevColumn,DevContainer,
-TitleContainer, TextContainer} from '../sectionstyles/sectionstyles.styles';
-import {SvgStyle} from '../icons/icons.styles';
+TitleContainer} from '../sectionstyles/sectionstyles.styles';
 import {ReactComponent as Brain} from '../../svgs/workinglate.svg';
 
 import styled from 'styled-components';

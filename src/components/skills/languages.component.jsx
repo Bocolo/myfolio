@@ -7,11 +7,10 @@ import {ReactComponent as JavaScript} from '../../svgs/javascript.svg';
 import {ReactComponent as Python} from '../../svgs/python.svg';
 import {ReactComponent as Reacti} from '../../svgs/react.svg';
 import {SvgJS,SvgPy,SvgStyle,
-    SvgCSS, SvgHTML, SvgReact, IconContainer} from '../icons/icons.styles.jsx';
+    SvgCSS, SvgHTML, SvgReact} from '../icons/icons.styles.jsx';
 import {MeContainer} from '../../components/me/me.styles';
-import {SkillsIcons} from '../../component/personal/personal.styles';
 import {FlipCardContainer} from '../../components/projects/project.styles';
-import {SmallText, MainText} from '../animated/animated.styles';
+import {SmallText} from '../animated/animated.styles';
 
 
 
@@ -22,12 +21,12 @@ const Languages =() => {
     return(
         
             <MeContainer  > 
-                 {/* borderRadius ='0px 190px 0px 190px'  borderRadiusSm ='150px' borderRadiusXSm ='100px' */}
+                
                 <SmallText fontWeight='bold' paddingTop='0px' paddingBottom='20px' fontSize='1.6em' >
-                    {/* textTransform='uppercase' */}
+                    
                     Skills 
                     </SmallText>
-                    {/* <MainText fontSize='1.6em'>Skills</MainText> */}
+          
                         <FlipCardContainer marginBottom='1em'>
                             <SvgJS><JavaScript/></SvgJS>
                             <SvgStyle><CSharp/></SvgStyle>

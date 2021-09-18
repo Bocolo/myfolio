@@ -27,16 +27,11 @@ const Button2 = styled.button`
 `;
 const Toggle = ({theme,  toggleTheme, text , background}) => {
     return (
-        // <div>
-        //   <Button onClick={toggleTheme} >
-          
-        //     {text}
-        //   </Button>
              <Button2 background={background} onClick={toggleTheme} >
           
             
            </Button2>
-       // </div>
+    
     );
 };
 Toggle.propTypes = {

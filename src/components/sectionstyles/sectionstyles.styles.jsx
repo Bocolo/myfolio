@@ -1,9 +1,5 @@
 import styled,{css} from 'styled-components';
-//display:flex;
-//padding-top: 20px;
 
-//justify-content:center;
-//align-items:center;
 export const ThemeButtonContainer=styled.div`
 display:grid;
 grid-template-columns: 1fr 1fr 1fr;
@@ -67,12 +63,7 @@ justify-content:center;
 text-align:center;
 `;
 
-//for left
-//grid-area: left-row;
-//for RightCol
-//padding-bottom:50px;
-//display:grid;
-//grid-area: right-row;
+
 export const RightCol=styled.div`
 display:grid;
 padding-top: ${props => props.paddingTop || '100px'};

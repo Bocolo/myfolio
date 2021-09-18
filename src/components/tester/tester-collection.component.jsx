@@ -2,7 +2,6 @@ import React from 'react';
 import Tester from './tester.component';
 import './tester-collection.styles.scss';
 
-import {Section} from '../sectionstyles/sectionstyles.styles';
 import {ProjectContainer,
     ProjectTitle,
     ProjectItems
@@ -16,11 +15,10 @@ const TesterCollection =()=>{
     return (
       <div>
         <div className='brack'> 
-            {/* <div className='tc project-page-title'>Project Tittle</div> */}
+           
             <div className='project-page '>
             <div className='project-page-title tc '>{title.toUpperCase()}</div>
-            <div className='items'>
-                {/* item map */}
+            <div className='items'>              
                 <Tester/>
                 <Tester/>
                 <Tester/>
@@ -28,9 +26,7 @@ const TesterCollection =()=>{
                 <br></br>
             </div>
     </div>
-    </div>
-  
-        
+    </div>       
         <ProjectContainer>
             <ProjectTitle>{title.toUpperCase()}</ProjectTitle>
             <ProjectItems>

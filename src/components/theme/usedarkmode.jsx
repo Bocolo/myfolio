@@ -12,9 +12,6 @@ export const useDarkMode = () => {
     const themeToggler = () => {
         theme === 'pink' ? setMode('dark') : setMode('pink')
       };
-      const themeSetter =({theme}) =>{
-          setMode(theme)
-      }
     const themePink =()=>{
         setMode('pink')
     }
