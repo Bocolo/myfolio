@@ -32,18 +32,3 @@ const Tester =({item})=> {
 
 export default Tester;
 
-{/*
-<div className='project-item'>
-            <div className='image'
-                style={{
-                    backgroundImage: `url(${imageUrl})`
-                }} />
-            <div className='project-footer'>
-                <span className='tc name'>{name}</span>
-            </div>
-            <div className='details-footer'>
-                <span className='details'>{details}</span>
-            </div>
-            
-        </div>
-*/}

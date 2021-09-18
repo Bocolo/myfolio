@@ -55,6 +55,7 @@ const App=() =>{
        {/* <button onClick={themeToggler}>This is a button</button> */}
        <Switch>
          <Route exact path='/' component={HomePage} />
+         <Route path='/myfolio' component={HomePage} />
          <Route path='/contact' component={ContactPage} />
          <Route path='/asteroidcode' component={AsteroidPage} />
        </Switch>

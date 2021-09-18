@@ -24,7 +24,7 @@ const Languages =() => {
                 
                 <SmallText fontWeight='bold' paddingTop='0px' paddingBottom='20px' fontSize='1.6em' >
                     
-                    Skills 
+                    Skills
                     </SmallText>
           
                         <FlipCardContainer marginBottom='1em'>

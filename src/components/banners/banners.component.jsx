@@ -1,7 +1,6 @@
 import React from 'react';
 import {Section, 
     TwoColumnGrid,
-    OneColumnGrid,
     LeftCol,
     RightCol,
     MainContainer,
@@ -11,7 +10,6 @@ import {Section,
 import {ProfileImg
 } from './banners.styles';
 import profile from '../../imgs/profile.jpg';
-import bluepaint from '../../imgs/bluepaint.jpg';
 
 const Banner = () => {
 

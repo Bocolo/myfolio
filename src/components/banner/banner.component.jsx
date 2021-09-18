@@ -1,13 +1,9 @@
 import React from 'react';
 import './banner.styles.scss';
 import Box from '../box/box.component';
-import westwater from '../../imgs/westwater.jpg';
-import computer from '../../imgs/computer.jpg';
 import bluepainting from '../../imgs/bluepaint.jpg';
 
-import designmix from '../../imgs/designmix.jpg';
 
-import designpurple from '../../imgs/designpurple.jpg';
 
 const Banner1 = () => {
     return (
@@ -16,9 +12,7 @@ const Banner1 = () => {
     <div className='image brack'>
         <img className='picture ' src={bluepainting} alt='item' />
        <div className='boxinpic'><Box/></div> 
-        {/* <div  className='picture'> */}
-            {/* <Containerbox  /> */}
-            {/* </div> */}
+
    
         
     </div>
