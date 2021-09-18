@@ -1,5 +1,4 @@
 import styled,{css} from 'styled-components';
-import tempImage from '../../imgs/computer.jpg';
 
 export const Overflow=styled.div`
 overflow:auto;

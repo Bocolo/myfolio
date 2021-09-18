@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import {ReactComponent as Icon} from '../../imgs/jsico.svg';
 
 export const MainImageBG =styled.img`
 height :700px; 

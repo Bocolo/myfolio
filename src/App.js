@@ -21,8 +21,7 @@ import Toggler from './components/toggler/toggler';
 
 const App=() =>{
   const [theme, themeToggler,themePink,themeDark, themeWhite,mountedComponent] =useDarkMode();
-  // const themeMode =
-  //    theme === 'pink' ? pinkTheme:darkTheme;
+  
   let themeMode =pinkTheme;
   if(theme === 'pink'){
     themeMode = pinkTheme

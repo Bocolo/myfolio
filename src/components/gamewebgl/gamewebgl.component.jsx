@@ -1,6 +1,6 @@
-import React, {Component} from 'react';
- import Unity,{UnityContext, UnityContent} from 'react-unity-webgl';
-import {GameContainer, GameColumn} from '../game/game.styles';
+import React from 'react';
+ import Unity,{UnityContent} from 'react-unity-webgl';
+import {GameContainer} from '../game/game.styles';
 
 
 const GameWebGL =()=>{

@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-import {HeaderContainer, OptionsContainer, OptionLink, NavContainer} from './header.styles.jsx';
+import {HeaderContainer, OptionsContainer, OptionLink} from './header.styles.jsx';
 
 
 const Header = () =>( 

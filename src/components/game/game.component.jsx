@@ -1,5 +1,4 @@
 import React from 'react';
-import {GameContainer} from './game.styles';
 import GameWebGL from '../gamewebgl/gamewebgl.component';
 import GameInstructions from '../gamewebgl/gameinstructions.component';
 import {
