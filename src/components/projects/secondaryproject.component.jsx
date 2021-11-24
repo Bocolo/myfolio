@@ -14,7 +14,7 @@ const [hidden, setHidden] = useState(false)
       <FullContainer >
         
           <TitleContainer paddingBottom ='20px' fontSize="3em" smFontSize="1.6em" smPadBot="30px" >
-              Some Past Projects
+              Some Past Projects - WILL UPDATE SHORTLY w/ PERSONAL PROJECTS
             </TitleContainer>
 
       

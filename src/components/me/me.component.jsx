@@ -18,6 +18,8 @@ return(
                 I love understanding how things work, why they work,
                 and how they can be improved.  And that is why I fell in love with Programming. 
                 <br/><br/>
+                I am Currently enrolled in NUIG's Higher Diploma in Applied Science in Software Design and Development
+                <br/><br/>
                 </SmallText>
                 {/* <MainText fontSize='1.6em'>More About Me</MainText>
                 <SmallText textAlign='left' >

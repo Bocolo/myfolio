@@ -18,7 +18,7 @@ const Animated =()=>{
                <SvgAvatar><FemaleAvatar/></SvgAvatar>
                <MainText fontSizeM='1.5em' fontSizeSm='1.1em'>
                 
-                   I am the Developer you didn't know you needed
+                   I am the Developer who is still working on this site...
                </MainText>
                 
                 <WalkStyle>

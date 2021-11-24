@@ -37,6 +37,9 @@ const Languages =() => {
                             <SvgHTML><HTML/></SvgHTML>
                         </FlipCardContainer>
                         <FlipCardContainer marginBottom='1em'gridGap='29px'>
+                        <div>
+                            <SmallText textAlign='left' lineHeight='1' paddingTop='10px' >Java</SmallText>
+                            </div>
                             <div>
                             <SmallText textAlign='left' lineHeight='1' paddingTop='10px' >Unity</SmallText>
                             </div>

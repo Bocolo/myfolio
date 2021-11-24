@@ -22,6 +22,8 @@ const GameInstructions =()=>{
                    How long can you survive the Asteroid field?
                 </TextContainer>
                 <TextContainer fontSize='21px' lineHeight='1.1' textAlign='left' smFontSize='18px' >
+                    <b>Don't be dispondent ... I will return to fix the game (and the display errors it has caused)</b>
+                    <br/>
                     <Descriptions text={introText}/>
                     <br/>
                     <Descriptions text={instructionText}/>
